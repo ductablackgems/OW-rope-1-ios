@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b3f9b179cef5069083b29d561190eb, type: 3}
+  m_Name: "CasualSkeletonMapping"
+  m_EditorClassIdentifier: 
+  skeletonPrefab: {fileID: 1790852886885622611, guid: 2878248c9b9f438da21708de045dd6b0, type: 2}
+  burnedSkeletonPrefab: {fileID: 1790852886885628482, guid: 5fbfdfe0c0934be89576952ef09e7c1a, type: 2}
+  greenSkeletonPrefab: {fileID: 1790852886885625970, guid: e48a4d4bfeac4d46be580be4bcf0146d, type: 2}
+  electrifiedSkeletonPrefab: {fileID: 1790852886885629010, guid: 41a56421151e4560b38f071ff20eec68, type: 2}
+  skeletonFirePrefab: {fileID: 1790852886885622408, guid: 66609528de2a4d82a875749cb2f9aa3d, type: 2}
+  greenSkeletonFirePrefab: {fileID: 1790852886885622409, guid: e601d283286045fe9023723570fc5d35, type: 2}
+  items:
+  - bone: 0
+    difference: {x: -1.002391E-07, y: 3.874331E-05, z: -0.0009715885, w: -0.9999996}
+  - bone: 7
+    difference: {x: -0.00275211, y: 0.0006478803, z: -0.04217475, w: -0.9991063}
+  - bone: 10
+    difference: {x: 4.228288E-06, y: -3.911128E-05, z: 0.04996057, w: 0.9987516}
+  - bone: 13
+    difference: {x: -0.9903778, y: -0.004824566, z: -0.005167542, w: 0.1382121}
+  - bone: 15
+    difference: {x: -0.9980748, y: 0.01258274, z: -0.004140262, w: 0.06060016}
+  - bone: 14
+    difference: {x: -0.9854624, y: 0.06527841, z: -0.07905123, w: -0.1354778}
+  - bone: 16
+    difference: {x: -0.9913343, y: 0.0745047, z: -0.08605266, w: -0.06558326}
+  - bone: 1
+    difference: {x: 0.002357644, y: 0.02763039, z: 0.008943035, w: -0.9995756}
+  - bone: 3
+    difference: {x: -0.02216642, y: -0.0005260871, z: -0.02625945, w: -0.9994096}
+  - bone: 5
+    difference: {x: -0.03764711, y: -0.06936299, z: 0.5875626, w: -0.8053211}
+  - bone: 2
+    difference: {x: -0.002495631, y: -0.0277647, z: 0.008599747, w: -0.9995745}
+  - bone: 4
+    difference: {x: 0.02230575, y: 0.0006213677, z: -0.02591586, w: -0.9994152}
+  - bone: 6
+    difference: {x: 0.0386813, y: 0.07011809, z: 0.587464, w: -0.8052787}

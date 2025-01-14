@@ -1,0 +1,38 @@
+namespace App.GUI
+{
+	public enum PanelType
+	{
+		Unknown,
+		Game,
+		Vehicle,
+		ClothesShop,
+		GunShop,
+		Pause,
+		Dead,
+		Busted,
+		Map,
+		MainMenu,
+		Helicopter,
+		Bicycle,
+		Options,
+		CharacterSelector,
+		Flying,
+		Tank,
+		RewardSelection,
+		Respawn,
+		Mech,
+		QuestOffer,
+		QuestNotification,
+		QuestCompleted,
+		QuestFailed,
+		ATMOffer,
+		HackingScreen,
+		HackingResult,
+		SkateShop,
+		Airplane,
+		AirplaneSelection,
+		ExitGame,
+		DogShop,
+		DogRevive
+	}
+}

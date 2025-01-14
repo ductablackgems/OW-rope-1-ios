@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: L_Wing_d2
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 26
+    localAABB:
+      m_Center: {x: -1.469675, y: -0.07639824, z: -0.3780184}
+      m_Extent: {x: 1.469675, y: 0.07639824, z: 0.381449}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 2
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 0
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata: 
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 78
+      m_Range: 2.94278
+      m_Start: -2.939349
+      m_Data: a4fd0bf6e3f9670868ffffff3408b2fce8fe670868ffffffa4fd0bf6e3f9b3ffb3ffb3ff000041fbd6d8e2e768f2a1bd000023fad6d8e2e736f4a1bde2e736f4a1bd670868ffffffb3ffb3ffb3ff000041fbd6d83408b2fce8fee2e768f2a1bda4fd0bf6e3f9000023fad6d83408b2fce8fe000041fbd6d8000023fad6d8670868ffffffa4fd0bf6e3f9e2e736f4a1bdb3ffb3ffb3ffe2e768f2a1bd
+      m_BitSize: 16
+    m_UV:
+      m_NumItems: 52
+      m_Range: 0.2890168
+      m_Start: 0.0058947
+      m_Data: 65b32359698f7926596965b33377429fc731d7249fbb31d725735dd2793459fdf4791c904b30d7244601f0b91bfcaff1791c9fbbf17f1cdba832d725cf0833d724
+      m_BitSize: 10
+    m_Normals:
+      m_NumItems: 52
+      m_Range: 1.991127
+      m_Start: -0.9972567
+      m_Data: 815081508150803e803e803e718071807180718080fe82ff80fe82ff7d007c007c007d00037e03800380037ef880f880f880f880
+      m_BitSize: 8
+    m_Tangents:
+      m_NumItems: 52
+      m_Range: 1.971025
+      m_Start: -0.9982412
+      m_Data: ff9eff9eff9eff9bff9bff9b018e018e018e018e028502860285028600850085008500859c8f9c8f9c8f9c8f558e558e558e558e
+      m_BitSize: 8
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 26
+      m_Data: 3fc03f00
+      m_BitSize: 1
+    m_TangentSigns:
+      m_NumItems: 52
+      m_Data: ffffffffffaf0a
+      m_BitSize: 1
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 36
+      m_Data: 2088418a39e898a4165baab9079f8b72d229abbdf8da0c
+      m_BitSize: 5
+    m_UVInfo: 5
+  m_LocalAABB:
+    m_Center: {x: -1.469675, y: -0.07639824, z: -0.3780184}
+    m_Extent: {x: 1.469675, y: 0.07639824, z: 0.381449}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 291.1164
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 0
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5c17f8d5dcfae4b43a8a1623f0fb704, type: 3}
+  m_Name: "HumanZones"
+  m_EditorClassIdentifier: 
+  zones:
+  - maxDistance: 7
+    trackNew: 1
+    keepTrackDuration: 5
+    use360Angle: 1
+    useRaycast: 0
+    useRaycastTracked: 0
+  - maxDistance: 15
+    trackNew: 1
+    keepTrackDuration: 5
+    use360Angle: 0
+    useRaycast: 1
+    useRaycastTracked: 0
+  - maxDistance: 50
+    trackNew: 1
+    keepTrackDuration: 5
+    use360Angle: 0
+    useRaycast: 1
+    useRaycastTracked: 1
+  - maxDistance: 80
+    trackNew: 0
+    keepTrackDuration: 3
+    use360Angle: 0
+    useRaycast: 1
+    useRaycastTracked: 0

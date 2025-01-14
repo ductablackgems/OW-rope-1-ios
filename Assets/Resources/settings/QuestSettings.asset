@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff7a7f504e885913354ac80088d25a33, type: 3}
+  m_Name: "QuestSettings"
+  m_EditorClassIdentifier: 
+  Quests:
+  - id: "GoAndCollectMoney"
+    isDisabled: 0
+    Type: 0
+    NameID: 6011
+    DescriptionID: 6012
+    StartReward:
+      Amount: 0
+    FinishReward:
+      Amount: 50
+    UnsupportedGames: 
+  - id: "BuyMeSomeGun"
+    isDisabled: 0
+    Type: 0
+    NameID: 6027
+    DescriptionID: 6028
+    StartReward:
+      Amount: 50
+    FinishReward:
+      Amount: 100
+    UnsupportedGames: 
+  - id: "TalkTo"
+    isDisabled: 0
+    Type: 1
+    NameID: 6015
+    DescriptionID: 6016
+    StartReward:
+      Amount: 0
+    FinishReward:
+      Amount: 50
+    UnsupportedGames: 
+  - id: "DestroyLights"
+    isDisabled: 0
+    Type: 1
+    NameID: 6017
+    DescriptionID: 6018
+    StartReward:
+      Amount: 0
+    FinishReward:
+      Amount: 30
+    UnsupportedGames: 
+  - id: "DeliverVehicles"
+    isDisabled: 0
+    Type: 0
+    NameID: 6021
+    DescriptionID: 6022
+    StartReward:
+      Amount: 0
+    FinishReward:
+      Amount: 100
+    UnsupportedGames: 
+  - id: "UseGarage"
+    isDisabled: 0
+    Type: 0
+    NameID: 6019
+    DescriptionID: 6020
+    StartReward:
+      Amount: 0
+    FinishReward:
+      Amount: 100
+    UnsupportedGames: 
+  - id: "EarnMoney"
+    isDisabled: 0
+    Type: 1
+    NameID: 6025
+    DescriptionID: 6026
+    StartReward:
+      Amount: 0
+    FinishReward:
+      Amount: 50
+    UnsupportedGames: 
+  - id: "PickUpBuddy"
+    isDisabled: 0
+    Type: 0
+    NameID: 6013
+    DescriptionID: 6014
+    StartReward:
+      Amount: 0
+    FinishReward:
+      Amount: 200
+    UnsupportedGames: 
+  - id: "GoAndKill"
+    isDisabled: 0
+    Type: 0
+    NameID: 6009
+    DescriptionID: 6010
+    StartReward:
+      Amount: 0
+    FinishReward:
+      Amount: 250
+    UnsupportedGames: 
+  - id: "DestroyCar"
+    isDisabled: 0
+    Type: 0
+    NameID: 6029
+    DescriptionID: 6030
+    StartReward:
+      Amount: 0
+    FinishReward:
+      Amount: 100
+    UnsupportedGames: 
+  - id: "KillCorruptCops"
+    isDisabled: 0
+    Type: 1
+    NameID: 6031
+    DescriptionID: 6032
+    StartReward:
+      Amount: 0
+    FinishReward:
+      Amount: 500
+    UnsupportedGames: 
+  - id: "PeskySkateboarders"
+    isDisabled: 0
+    Type: 0
+    NameID: 6033
+    DescriptionID: 6034
+    StartReward:
+      Amount: 0
+    FinishReward:
+      Amount: 300
+    UnsupportedGames: 
+  - id: "Race"
+    isDisabled: 0
+    Type: 0
+    NameID: 6035
+    DescriptionID: 6036
+    StartReward:
+      Amount: 0
+    FinishReward:
+      Amount: 100
+    UnsupportedGames: 
+  - id: "DestroyTrashCans"
+    isDisabled: 0
+    Type: 0
+    NameID: 6037
+    DescriptionID: 6038
+    StartReward:
+      Amount: 0
+    FinishReward:
+      Amount: 100
+    UnsupportedGames: 
+  - id: "DestroyMafiaVans"
+    isDisabled: 0
+    Type: 0
+    NameID: 6039
+    DescriptionID: 6040
+    StartReward:
+      Amount: 0
+    FinishReward:
+      Amount: 100
+    UnsupportedGames: 
+  - id: "FakeCop"
+    isDisabled: 0
+    Type: 0
+    NameID: 6041
+    DescriptionID: 6042
+    StartReward:
+      Amount: 0
+    FinishReward:
+      Amount: 100
+    UnsupportedGames: 
+  - id: "DestroyPoliceCars"
+    isDisabled: 0
+    Type: 0
+    NameID: 6043
+    DescriptionID: 6044
+    StartReward:
+      Amount: 0
+    FinishReward:
+      Amount: 100
+    UnsupportedGames: 

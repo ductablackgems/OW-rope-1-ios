@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4961b7c8fee60e23403733400aba6b43, type: 3}
+  m_Name: "FightSounds"
+  m_EditorClassIdentifier: 
+  strikeClips:
+  - {fileID: 8300000, guid: 875b9b81d54f4c22b6d3cc470204f14c, type: 3}
+  - {fileID: 8300000, guid: f7d43c01c68446aebbdf7220401acb01, type: 3}
+  - {fileID: 8300000, guid: 1f1e62efaf3147dab447466f64b9c610, type: 3}
+  - {fileID: 8300000, guid: 3e59eef3573f4fd98131ac7fcf99f919, type: 3}
+  - {fileID: 8300000, guid: e1ff6245cc3e48569a111c570e9b16d3, type: 3}
+  missClips:
+  - {fileID: 8300000, guid: 0420f9e87d344aba890866ba80f085ed, type: 3}
+  - {fileID: 8300000, guid: c69c9d8a22834113b2f548be8518105b, type: 3}
+  - {fileID: 8300000, guid: 417b36bbe0344ecfb77c5e602cab5772, type: 3}
+  - {fileID: 8300000, guid: 8cec95cf10f14af593af939cb4647370, type: 3}
+  - {fileID: 8300000, guid: 536938e370c1439ebd144a8cfafdf0c4, type: 3}
+  hitClips:
+  - {fileID: 8300000, guid: 2cbf5eaa6846425c920cbdefa557a317, type: 3}
+  - {fileID: 8300000, guid: d5ca69e7199a49b9b5e97b6426a80f94, type: 3}
+  - {fileID: 8300000, guid: 6394960dfa7f4ef1b09ee2ac94568bea, type: 3}
+  - {fileID: 8300000, guid: 29013154c86243e8a398cbaef554bea4, type: 3}

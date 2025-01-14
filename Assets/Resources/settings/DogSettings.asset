@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9bdd5cc57164b4e5f746ab8f6711ef, type: 3}
+  m_Name: "DogSettings"
+  m_EditorClassIdentifier: 
+  dogs:
+  - id: "Dog.GermanSheperd"
+    isDisabled: 0
+    prefab: {fileID: 0}
+    name: "German Sheperd"
+    price: 0
+    minHealth: 100
+    maxHealth: 1000
+    walkSpeed: 2
+    runSpeed: 6
+    minScale: 0.5
+    maxScale: 1
+    attackRange: 2
+    minDamage: 10
+    maxDamage: 50
+  - id: "Dog.Bulldog"
+    isDisabled: 0
+    prefab: {fileID: 0}
+    name: "Bulldog"
+    price: 1000
+    minHealth: 100
+    maxHealth: 1000
+    walkSpeed: 2
+    runSpeed: 6
+    minScale: 0.6
+    maxScale: 1
+    attackRange: 2
+    minDamage: 50
+    maxDamage: 100
+  - id: "Dog.Doberman"
+    isDisabled: 0
+    prefab: {fileID: 0}
+    name: "Doberman"
+    price: 2000
+    minHealth: 100
+    maxHealth: 1000
+    walkSpeed: 2
+    runSpeed: 6
+    minScale: 0.6
+    maxScale: 1
+    attackRange: 2
+    minDamage: 50
+    maxDamage: 100
+  - id: "Dog.TatraSheepdog"
+    isDisabled: 0
+    prefab: {fileID: 0}
+    name: "Tatra Sheepdog"
+    price: 3000
+    minHealth: 100
+    maxHealth: 1000
+    walkSpeed: 2
+    runSpeed: 6
+    minScale: 0.6
+    maxScale: 1
+    attackRange: 2
+    minDamage: 50
+    maxDamage: 100
+  - id: "Dog.Dalmatin"
+    isDisabled: 0
+    prefab: {fileID: 0}
+    name: "Dalmatin"
+    price: 3000
+    minHealth: 100
+    maxHealth: 1000
+    walkSpeed: 2
+    runSpeed: 6
+    minScale: 0.6
+    maxScale: 1
+    attackRange: 2
+    minDamage: 50
+    maxDamage: 100
+  - id: "Dog.Greyhound"
+    isDisabled: 0
+    prefab: {fileID: 0}
+    name: "Greyhound"
+    price: 3000
+    minHealth: 100
+    maxHealth: 1000
+    walkSpeed: 2
+    runSpeed: 6
+    minScale: 0.6
+    maxScale: 1
+    attackRange: 2
+    minDamage: 50
+    maxDamage: 100
+  - id: "Dog.Wolf"
+    isDisabled: 0
+    prefab: {fileID: 0}
+    name: "Wolf"
+    price: 3000
+    minHealth: 100
+    maxHealth: 1000
+    walkSpeed: 2
+    runSpeed: 6
+    minScale: 0.6
+    maxScale: 1
+    attackRange: 2
+    minDamage: 50
+    maxDamage: 100
+  defaultDogID: "Dog.GermanSheperd"
+  expPerKill: 10
+  deathPenalty: 0.2
+  expTable: 000000000A000000140000001E00000028000000320000003C00000046000000500000005A000000

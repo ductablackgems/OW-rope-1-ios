@@ -1,0 +1,74 @@
+<dependencies>
+  <packages>
+    <package>androidx.constraintlayout:constraintlayout:2.1.4</package>
+    <package>androidx.recyclerview:recyclerview:1.2.1</package>
+    <package>com.adjust.sdk:adjust-android:5.0.1</package>
+    <package>com.android.installreferrer:installreferrer:2.2</package>
+    <package>com.android.support:appcompat-v7:28.0.0</package>
+    <package>com.android.support:customtabs:28.+</package>
+    <package>com.android.support:recyclerview-v7:28.+</package>
+    <package>com.applovin.mediation:bytedance-adapter:5.9.0.6.0</package>
+    <package>com.applovin.mediation:facebook-adapter:[6.17.0.0]</package>
+    <package>com.applovin.mediation:fyber-adapter:8.2.7.1</package>
+    <package>com.applovin.mediation:google-adapter:[23.2.0.0]</package>
+    <package>com.applovin.mediation:google-ad-manager-adapter:[23.2.0.0]</package>
+    <package>com.applovin.mediation:inmobi-adapter:10.7.3.0</package>
+    <package>com.applovin.mediation:ironsource-adapter:8.1.0.0.0</package>
+    <package>com.applovin.mediation:mintegral-adapter:16.7.71.0</package>
+    <package>com.applovin.mediation:unityads-adapter:4.12.1.0</package>
+    <package>com.applovin.mediation:verve-adapter:3.0.2.0</package>
+    <package>com.applovin.mediation:vungle-adapter:7.4.0.0</package>
+    <package>com.applovin.mediation:yandex-adapter:7.2.0.0</package>
+    <package>com.applovin:applovin-sdk:12.5.0</package>
+    <package>com.github.bumptech.glide:glide:4.8.0</package>
+    <package>com.google.android.gms:play-services-ads:23.2.0</package>
+    <package>com.google.android.gms:play-services-base:18.4.0</package>
+    <package>com.google.android.play:core-common:2.0.4</package>
+    <package>com.google.android.play:review:2.0.0</package>
+    <package>com.google.android.ump:user-messaging-platform:2.+</package>
+    <package>com.google.android.ump:user-messaging-platform:2.2.0</package>
+    <package>com.google.code.gson:gson:2.8.5</package>
+    <package>com.google.firebase:firebase-analytics:22.0.0</package>
+    <package>com.google.firebase:firebase-analytics-unity:12.0.0</package>
+    <package>com.google.firebase:firebase-app-unity:12.0.0</package>
+    <package>com.google.firebase:firebase-common:21.0.0</package>
+    <package>com.google.firebase:firebase-config:22.0.0</package>
+    <package>com.google.firebase:firebase-config-unity:12.0.0</package>
+    <package>com.google.firebase:firebase-crashlytics-ndk:19.0.0</package>
+    <package>com.google.firebase:firebase-crashlytics-unity:12.0.0</package>
+    <package>com.google.firebase:firebase-iid:21.1.0</package>
+    <package>com.google.firebase:firebase-messaging:24.0.0</package>
+    <package>com.google.firebase:firebase-messaging-unity:12.0.0</package>
+    <package>com.google.flatbuffers:flatbuffers-java:1.12.0</package>
+    <package>com.squareup.picasso:picasso:2.71828</package>
+  </packages>
+  <files>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-analytics-unity/12.0.0/firebase-analytics-unity-12.0.0.aar</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-analytics-unity/12.0.0/firebase-analytics-unity-12.0.0.pom</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-app-unity/12.0.0/firebase-app-unity-12.0.0.aar</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-app-unity/12.0.0/firebase-app-unity-12.0.0.pom</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-config-unity/12.0.0/firebase-config-unity-12.0.0.aar</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-config-unity/12.0.0/firebase-config-unity-12.0.0.pom</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-crashlytics-unity/12.0.0/firebase-crashlytics-unity-12.0.0.aar</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-crashlytics-unity/12.0.0/firebase-crashlytics-unity-12.0.0.pom</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-messaging-unity/12.0.0/firebase-messaging-unity-12.0.0.aar</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-messaging-unity/12.0.0/firebase-messaging-unity-12.0.0.pom</file>
+  </files>
+  <settings>
+    <setting name="androidAbis" value="arm64-v8a,armeabi-v7a" />
+    <setting name="bundleId" value="rope.gangster.flying.simulator3d" />
+    <setting name="explodeAars" value="True" />
+    <setting name="gradleBuildEnabled" value="True" />
+    <setting name="gradlePropertiesTemplateEnabled" value="True" />
+    <setting name="gradleTemplateEnabled" value="True" />
+    <setting name="installAndroidPackages" value="True" />
+    <setting name="localMavenRepoDir" value="Assets/GeneratedLocalRepo" />
+    <setting name="packageDir" value="Assets/Plugins/Android" />
+    <setting name="patchAndroidManifest" value="True" />
+    <setting name="patchMainTemplateGradle" value="True" />
+    <setting name="projectExportEnabled" value="False" />
+    <setting name="useFullCustomMavenRepoPathWhenExport" value="True" />
+    <setting name="useFullCustomMavenRepoPathWhenNotExport" value="False" />
+    <setting name="useJetifier" value="True" />
+  </settings>
+</dependencies>

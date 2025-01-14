@@ -1,0 +1,30 @@
+namespace App.GUI
+{
+	public enum SharedGuiType
+	{
+		VehicleButton,
+		MiniMap,
+		PauseButton,
+		WeaponInfo,
+		LeftJoystick,
+		Crosshair,
+		MissionText,
+		FlyButton,
+		SwitchGrenadeButton,
+		GrenadeButton,
+		LaserButton,
+		VehicleForwardButton,
+		VehicleBackButton,
+		SteerLeftButton,
+		SteerRightButton,
+		MagicAttackButton,
+		MagicShieldButton,
+		InteractButton,
+		QuestInfo,
+		HealthInfo,
+		ArmorInfo,
+		EnergyInfo,
+		CapacityInfo,
+		HitIndicator
+	}
+}

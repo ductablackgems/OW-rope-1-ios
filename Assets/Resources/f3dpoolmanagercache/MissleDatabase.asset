@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1efd00a180c6bcde4c07ce2f5b5c37bb, type: 3}
+  m_Name: "MissleDatabase"
+  m_EditorClassIdentifier: 
+  poolsName: []
+  pools:
+  - poolName: "47656e657261746564506f6f6c"
+    templates:
+    - {fileID: 1790852886935951658, guid: 35e0f1fd38a3490b8403d13bf4cb5f55, type: 2}
+    - {fileID: 1790852886935951671, guid: 67bdc2700879475db8045c6e939a20b4, type: 2}
+    poolLength: 1E0000001E000000
+    poolLengthMax: 1E0000001E000000
+    broadcastSpawnName: "4f6e537061776e6564"
+    broadcastDespawnName: "4f6e4465737061776e6564"
+    delayedSpawnInInstall: 0
+    objectsPerUpdate: 5
+    needBroadcasting: 1
+    optimizeSpawn: 1
+    targetFPS: 50
+    pooling: 1
+    needSort: 1
+    needParenting: 1
+    needDebug: 0
+  namer: "4d6973736c654461746162617365"

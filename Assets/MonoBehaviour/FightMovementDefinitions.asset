@@ -1,0 +1,1160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dd50226d1e49b913aa225b1c67456a, type: 3}
+  m_Name: "FightMovementDefinitions"
+  m_EditorClassIdentifier: 
+  definitions:
+  - tid: "Punch"
+    animations:
+    - name: "Punch"
+      maxRemainExitTime: 0.25
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits:
+    - damage: 8
+      height: 0
+      power: 0
+      yAngleOffset: 10
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "RabbitKickRCombo"
+    animations:
+    - name: "RabbitKickRCombo0"
+      maxRemainExitTime: 0.3
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    - name: "RabbitKickRCombo1"
+      maxRemainExitTime: 0.3
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    - name: "RabbitKickRCombo2"
+      maxRemainExitTime: 0.3
+      preventYRotation: 1
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits:
+    - damage: 8
+      height: 1
+      power: 0
+      yAngleOffset: 45
+    - damage: 8
+      height: 1
+      power: 0
+      yAngleOffset: 45
+    - damage: 22
+      height: 0
+      power: 2
+      yAngleOffset: 0
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HookL"
+    animations:
+    - name: "KB_m_Hook_L"
+      maxRemainExitTime: 0.3
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits:
+    - damage: 0
+      height: 0
+      power: 0
+      yAngleOffset: -60
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HookR"
+    animations:
+    - name: "KB_m_Hook_R"
+      maxRemainExitTime: 0.3
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits:
+    - damage: 0
+      height: 0
+      power: 0
+      yAngleOffset: 60
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "JabLRCombo"
+    animations:
+    - name: "JabLRCombo0"
+      maxRemainExitTime: 0.25
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    - name: "JabLRCombo1"
+      maxRemainExitTime: 0.25
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    - name: "JabLRCombo2"
+      maxRemainExitTime: 0.25
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits:
+    - damage: 8
+      height: 0
+      power: 0
+      yAngleOffset: 0
+    - damage: 8
+      height: 0
+      power: 0
+      yAngleOffset: 20
+    - damage: 22
+      height: 0
+      power: 2
+      yAngleOffset: -20
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 1
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "Kick"
+    animations:
+    - name: "Kick"
+      maxRemainExitTime: 0.4
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits:
+    - damage: 8
+      height: 1
+      power: 1
+      yAngleOffset: 0
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HighKickRoundR"
+    animations:
+    - name: "KB_m_HighKickRound_R_1"
+      maxRemainExitTime: 0.8
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits:
+    - damage: 20
+      height: 0
+      power: 2
+      yAngleOffset: 60
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "MidUppercutRCombo"
+    animations:
+    - name: "MidUppercutRCombo0"
+      maxRemainExitTime: 0.3
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    - name: "MidUppercutRCombo1"
+      maxRemainExitTime: 0.3
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    - name: "MidUppercutRCombo2"
+      maxRemainExitTime: 0.3
+      preventYRotation: 1
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits:
+    - damage: 8
+      height: 1
+      power: 0
+      yAngleOffset: 30
+    - damage: 8
+      height: 0
+      power: 0
+      yAngleOffset: 60
+    - damage: 22
+      height: 1
+      power: 2
+      yAngleOffset: 0
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HammerAttack1"
+    animations:
+    - name: "HammerAttack1"
+      maxRemainExitTime: 0.25
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 1
+      customTransitionDuration: 0.15
+    hits:
+    - damage: 12
+      height: 1
+      power: 1
+      yAngleOffset: 60
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HammerAttack2"
+    animations:
+    - name: "HammerAttack2"
+      maxRemainExitTime: 0.25
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 1
+      customTransitionDuration: 0.15
+    hits:
+    - damage: 16
+      height: 0
+      power: 0
+      yAngleOffset: 0
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HammerAttack3"
+    animations:
+    - name: "HammerAttack3"
+      maxRemainExitTime: 0.25
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 1
+      customTransitionDuration: 0.15
+    hits:
+    - damage: 10
+      height: 0
+      power: 0
+      yAngleOffset: 20
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "3HitComboWeapon"
+    animations:
+    - name: "3HitComboWeapon0"
+      maxRemainExitTime: 0.1
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 1
+      customTransitionDuration: 0.15
+    - name: "3HitComboWeapon1"
+      maxRemainExitTime: 0.1
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    - name: "3HitComboWeapon2"
+      maxRemainExitTime: 0.1
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits:
+    - damage: 22
+      height: 1
+      power: 1
+      yAngleOffset: 70
+    - damage: 8
+      height: 1
+      power: 0
+      yAngleOffset: -70
+    - damage: 12
+      height: 0
+      power: 2
+      yAngleOffset: 10
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "4HitComboWeapon"
+    animations:
+    - name: "4HitComboWeapon0"
+      maxRemainExitTime: 0.1
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 1
+      customTransitionDuration: 0.15
+    - name: "4HitComboWeapon1"
+      maxRemainExitTime: 0.1
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    - name: "4HitComboWeapon2"
+      maxRemainExitTime: 0.1
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits:
+    - damage: 8
+      height: 1
+      power: 0
+      yAngleOffset: 60
+    - damage: 8
+      height: 0
+      power: 0
+      yAngleOffset: -60
+    - damage: 25
+      height: 0
+      power: 0
+      yAngleOffset: 10
+    - damage: 25
+      height: 0
+      power: 2
+      yAngleOffset: 0
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "2HitComboWeapon"
+    animations:
+    - name: "2HitComboWeapon0"
+      maxRemainExitTime: 0.1
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 1
+      customTransitionDuration: 0.15
+    - name: "2HitComboWeapon1"
+      maxRemainExitTime: 0.1
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits:
+    - damage: 8
+      height: 1
+      power: 1
+      yAngleOffset: 60
+    - damage: 8
+      height: 1
+      power: 2
+      yAngleOffset: -60
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "Magic1"
+    animations:
+    - name: "Magic1"
+      maxRemainExitTime: 0.1
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 1
+      customTransitionDuration: 0.15
+    hits:
+    - damage: 8
+      height: 1
+      power: 1
+      yAngleOffset: 60
+    - damage: 8
+      height: 1
+      power: 2
+      yAngleOffset: -60
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "Magic2"
+    animations:
+    - name: "Magic2"
+      maxRemainExitTime: 0.1
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 1
+      customTransitionDuration: 0.15
+    hits:
+    - damage: 8
+      height: 1
+      power: 1
+      yAngleOffset: 60
+    - damage: 8
+      height: 1
+      power: 2
+      yAngleOffset: -60
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "Magic3"
+    animations:
+    - name: "Magic3"
+      maxRemainExitTime: 0.1
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 1
+      customTransitionDuration: 0.15
+    hits:
+    - damage: 8
+      height: 1
+      power: 1
+      yAngleOffset: 60
+    - damage: 8
+      height: 1
+      power: 2
+      yAngleOffset: -60
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "Magic4"
+    animations:
+    - name: "Magic4"
+      maxRemainExitTime: 0.1
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 1
+      customTransitionDuration: 0.15
+    hits:
+    - damage: 8
+      height: 1
+      power: 1
+      yAngleOffset: 60
+    - damage: 8
+      height: 1
+      power: 2
+      yAngleOffset: -60
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  grabDefinitions:
+  - tid: "HandstandThrow"
+    animations:
+    - name: "HandstandThrow"
+      maxRemainExitTime: 0
+      preventYRotation: 0
+      kinematic: 1
+      useCustomTransition: 1
+      customTransitionDuration: 0.1
+    hits:
+    - damage: 60
+      height: 0
+      power: 0
+      yAngleOffset: 0
+    useCustomHit: 1
+    customHitTid: "HandstandThrowVictim"
+    testSpace: 1
+    testSpaceCapsule:
+      start: {x: 0, y: 1.17, z: -3.28}
+      end: {x: 0, y: 1.17, z: -0.2}
+      radius: 0.58
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HeadCrusher"
+    animations:
+    - name: "HeadCrusher"
+      maxRemainExitTime: 0
+      preventYRotation: 0
+      kinematic: 1
+      useCustomTransition: 1
+      customTransitionDuration: 0.1
+    hits:
+    - damage: 70
+      height: 0
+      power: 0
+      yAngleOffset: 0
+    useCustomHit: 1
+    customHitTid: "HeadCrusherVictim"
+    testSpace: 1
+    testSpaceCapsule:
+      start: {x: 0, y: 1.17, z: -1.9}
+      end: {x: 0, y: 1.17, z: -0.65}
+      radius: 0.58
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "SaltoLegThrow"
+    animations:
+    - name: "SaltoLegThrow"
+      maxRemainExitTime: 0
+      preventYRotation: 0
+      kinematic: 1
+      useCustomTransition: 1
+      customTransitionDuration: 0.1
+    hits:
+    - damage: 80
+      height: 0
+      power: 0
+      yAngleOffset: 0
+    useCustomHit: 1
+    customHitTid: "SaltoLegThrowVictim"
+    testSpace: 1
+    testSpaceCapsule:
+      start: {x: 0, y: 1.17, z: 4.82}
+      end: {x: 0, y: 1.17, z: -0.5}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 1
+    ragdollSpeed: {x: 0, y: 7, z: 10}
+  - tid: "DivingElbow"
+    animations:
+    - name: "DivingElbow"
+      maxRemainExitTime: 0
+      preventYRotation: 0
+      kinematic: 1
+      useCustomTransition: 1
+      customTransitionDuration: 0.1
+    hits:
+    - damage: 80
+      height: 0
+      power: 0
+      yAngleOffset: 0
+    useCustomHit: 1
+    customHitTid: "DivingElbowVictim"
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "SaltoLegThrowTwist"
+    animations:
+    - name: "SaltoLegThrowTwist"
+      maxRemainExitTime: 0
+      preventYRotation: 0
+      kinematic: 1
+      useCustomTransition: 1
+      customTransitionDuration: 0.1
+    hits:
+    - damage: 100
+      height: 0
+      power: 0
+      yAngleOffset: 0
+    useCustomHit: 1
+    customHitTid: "SaltoLegThrowTwistVictim"
+    testSpace: 1
+    testSpaceCapsule:
+      start: {x: 0, y: 1.17, z: -1.04}
+      end: {x: 0, y: 1.17, z: 4.66}
+      radius: 0.58
+    ragdollTime: 0
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  hitDefinitions:
+  - tid: "HitHighBackWeak"
+    animations:
+    - name: "KB_Hit_m_HighBack_Weak"
+      maxRemainExitTime: 0.5
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0.7
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HitHighFrontWeak"
+    animations:
+    - name: "KB_Hit_m_HighFront_Weak"
+      maxRemainExitTime: 0.5
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0.7
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HitHighLeftWeak"
+    animations:
+    - name: "KB_Hit_m_HighLeft_Weak"
+      maxRemainExitTime: 0.5
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0.7
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HitHighRightWeak"
+    animations:
+    - name: "KB_Hit_m_HighRight_Weak"
+      maxRemainExitTime: 0.5
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0.7
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HitMidBackWeak"
+    animations:
+    - name: "KB_Hit_m_MidBack_Med"
+      maxRemainExitTime: 0.9
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0.7
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HitMidFrontWeak"
+    animations:
+    - name: "KB_Hit_m_MidFront_Weak"
+      maxRemainExitTime: 0.5
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0.7
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HitMidLeftWeak"
+    animations:
+    - name: "KB_Hit_m_MidLeft_Weak"
+      maxRemainExitTime: 0.5
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0.7
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HitMidRightWeak"
+    animations:
+    - name: "KB_Hit_m_MidRight_Weak"
+      maxRemainExitTime: 0.5
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0.7
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HitHighBackStagger"
+    animations:
+    - name: "KB_Hit_m_HighBack_Stagger"
+      maxRemainExitTime: 0.3
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0.4
+    alwaysRagdollize: 1
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HitHighFrontStagger"
+    animations:
+    - name: "KB_Hit_m_HighFront_Stagger"
+      maxRemainExitTime: 0.3
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0.4
+    alwaysRagdollize: 1
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HitMidFrontStagger"
+    animations:
+    - name: "KB_Hit_m_MidFront_Stagger"
+      maxRemainExitTime: 0.3
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0.4
+    alwaysRagdollize: 1
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HitMidBackStagger"
+    animations:
+    - name: "KB_Hit_m_MidBack_Stagger"
+      maxRemainExitTime: 0.3
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0.4
+    alwaysRagdollize: 1
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HitMidLeftStagger"
+    animations:
+    - name: "KB_Hit_m_MidLeft_Stagger"
+      maxRemainExitTime: 0.3
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0.4
+    alwaysRagdollize: 1
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HitMidRightStagger"
+    animations:
+    - name: "KB_Hit_m_MidRight_Stagger"
+      maxRemainExitTime: 0.3
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0.4
+    alwaysRagdollize: 1
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HitMidFrontMedium"
+    animations:
+    - name: "KB_Hit_m_MidFront_Med"
+      maxRemainExitTime: 0.5
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0.7
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HitMidBackMedium"
+    animations:
+    - name: "KB_Hit_m_MidBack_Med"
+      maxRemainExitTime: 0.5
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0.7
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HitMidLeftMedium"
+    animations:
+    - name: "KB_Hit_m_MidLeft_Med"
+      maxRemainExitTime: 0.5
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0.7
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "HitMidRightMedium"
+    animations:
+    - name: "KB_Hit_m_MidRight_Med"
+      maxRemainExitTime: 0.5
+      preventYRotation: 0
+      kinematic: 0
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 0.7
+    alwaysRagdollize: 0
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  customHitDefinitions:
+  - tid: "HandstandThrowVictim"
+    animations:
+    - name: "HandstandThrowVictim"
+      maxRemainExitTime: 0.3
+      preventYRotation: 0
+      kinematic: 1
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 3.5
+    alwaysRagdollize: 1
+    useCustomRagdollSpeed: 1
+    ragdollSpeed: {x: 0, y: -1, z: 10}
+  - tid: "HeadCrusherVictim"
+    animations:
+    - name: "HeadCrusherVictim"
+      maxRemainExitTime: 0.3
+      preventYRotation: 0
+      kinematic: 1
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 2.3
+    alwaysRagdollize: 1
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "SaltoLegThrowVictim"
+    animations:
+    - name: "SaltoLegThrowVictim"
+      maxRemainExitTime: 0.3
+      preventYRotation: 0
+      kinematic: 1
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 3.2
+    alwaysRagdollize: 1
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "DivingElbowVictim"
+    animations:
+    - name: "DivingElbowVictim"
+      maxRemainExitTime: 0.3
+      preventYRotation: 0
+      kinematic: 1
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 4
+    alwaysRagdollize: 1
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}
+  - tid: "SaltoLegThrowTwistVictim"
+    animations:
+    - name: "SaltoLegThrowTwistVictim"
+      maxRemainExitTime: 0.3
+      preventYRotation: 0
+      kinematic: 1
+      useCustomTransition: 0
+      customTransitionDuration: 0
+    hits: []
+    useCustomHit: 0
+    customHitTid: 
+    testSpace: 0
+    testSpaceCapsule:
+      start: {x: 0, y: 0, z: 0}
+      end: {x: 0, y: 0, z: 0}
+      radius: 1
+    ragdollTime: 6
+    alwaysRagdollize: 1
+    useCustomRagdollSpeed: 0
+    ragdollSpeed: {x: 0, y: 0, z: 0}

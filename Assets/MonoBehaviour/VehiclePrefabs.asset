@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b027f391d8237bf55d0f6d3dc58474b, type: 3}
+  m_Name: "VehiclePrefabs"
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 1790852888781469264, guid: 11d53fe48ab84f6fb5eea50d3ef1ec43, type: 2}
+  - {fileID: 1790852888781468147, guid: d8312dc393ef4688a677b3c0d0de589e, type: 2}
+  - {fileID: 1790852888781468969, guid: 72c4bde81c3242408761bdd4efe32a9a, type: 2}
+  - {fileID: 1790852888781468567, guid: 1b19db586401417fb7f5eed3c613d03c, type: 2}
+  - {fileID: 1790852888781468854, guid: e5023d97d65b49ecba21e94b34223d42, type: 2}
+  - {fileID: 1790852888781468014, guid: 91f229a88ef24e4d8cd022ddffaf23e7, type: 2}
+  - {fileID: 1790852888781468080, guid: 03e199929adf405e93092df48b3cd235, type: 2}
+  - {fileID: 1790852888781468450, guid: d5d972ffc2174097874a08a44a73c905, type: 2}
+  - {fileID: 1790852888781468177, guid: 442eff2f0a294fbab06f72dc618039b3, type: 2}
+  - {fileID: 1790852888781469236, guid: be4fe67d9a9e4def84543a8ac5cc854f, type: 2}
+  - {fileID: 1790852888781468840, guid: 793717cc004e4a2e92259a83b8eb3419, type: 2}
+  - {fileID: 1790852888781468334, guid: 5604829e4f054c45a69ed0f3f77e42f3, type: 2}
+  - {fileID: 1790852888781468391, guid: b76945e9c48e42368088f093118f71e4, type: 2}
+  - {fileID: 1790852888781467982, guid: 922880281b834bc6b52d15c9899bf368, type: 2}
+  - {fileID: 1790852888781468291, guid: 855e1d56bebf4e2ba5eee23ce16e5931, type: 2}
+  - {fileID: 1790852888781469213, guid: 2cd546fcb08240479f60aad0a85878fa, type: 2}
+  - {fileID: 1790852888781468730, guid: ab0b439e1a7b469497325dc98444fa44, type: 2}
+  - {fileID: 1790852888781468724, guid: a331065964b145bbbf48a9f2c567a316, type: 2}
+  - {fileID: 1790852888781468783, guid: 6e31b30f1e504c57a556c8b2afbeeb8f, type: 2}
+  - {fileID: 1790852888781468791, guid: 88a957490ca24c11844425f59a47a4c1, type: 2}
+  - {fileID: 1790852888781468361, guid: 5128fddc0da149f4b0448369f19bd4e7, type: 2}
+  - {fileID: 1790852888781468141, guid: eed2326f7ce046679ed51fd28b751870, type: 2}
+  - {fileID: 1790852888781468367, guid: ac09a074b1ec434487a712ea9322bc80, type: 2}
+  - {fileID: 1790852888781467830, guid: 0b4295a66d0140e189ad2fe88e35785a, type: 2}
+  - {fileID: 1790852888781468518, guid: a1b1920afc394cb1ad103a0bd499e32d, type: 2}
+  - {fileID: 1790852888781468212, guid: 249536246be948859c09573f3411a090, type: 2}
+  - {fileID: 1790852888781469155, guid: e0fccb99fc7046698a15eeb10ebb1ea4, type: 2}
+  - {fileID: 1790852888781468859, guid: 98c24fefa4494b40a9fa4ce9004bb022, type: 2}
+  - {fileID: 1790852888781469160, guid: c93aef9c590641918f4219221e37ecfa, type: 2}
+  bikePrefabs:
+  - {fileID: 1790852888781468462, guid: 36a77d4f6cf948539210c70fa042cee8, type: 2}
+  - {fileID: 1790852888781467936, guid: 9a09e5920eb24368ac9e2ec8a715feb9, type: 2}
+  - {fileID: 1790852888781467889, guid: 7bf73732890b48e3ab5577df318af49b, type: 2}
+  - {fileID: 1790852888781469124, guid: 20181f62f92f4178a6e2aad503a44065, type: 2}
+  - {fileID: 1790852888781468405, guid: 2e2333a16bd843a2980420e2e5d91f0c, type: 2}
+  - {fileID: 1790852888781468439, guid: eb10458a35ad4af18cca60ecf3dff13d, type: 2}
+  - {fileID: 1790852888781468579, guid: e3b0de7e15b047bca18ace53e651d548, type: 2}
+  - {fileID: 1790852888781468697, guid: 2d35644541724ec6adc3351cba3ca29f, type: 2}
+  - {fileID: 1790852888781468578, guid: 8aa8340b204d4b6591ae82de37ece038, type: 2}
+  - {fileID: 1790852888781468240, guid: 27bc94f9f7944abfaa67732278a45e18, type: 2}
+  - {fileID: 1790852888781468033, guid: bde290e096324e76b95693c31e5f1a8f, type: 2}
+  - {fileID: 1790852888781468380, guid: 230e9551ce704b1d8324ad8be29eb217, type: 2}
+  - {fileID: 1790852888781468658, guid: 5aa993c9bb3c4a588ba31842084fc4c7, type: 2}
+  - {fileID: 1790852888781468686, guid: 1e22361f64cf4aff9443fc788ed84090, type: 2}
+  - {fileID: 1790852888781469031, guid: f2cb3a5159184fb6a89622e5942bfe4e, type: 2}
+  - {fileID: 1790852888781467928, guid: 34411b5d60c4495ca3c6e8926bd8cf63, type: 2}
+  - {fileID: 1790852888781468466, guid: 48db092b68a44c91b3cf476518f56cfe, type: 2}
+  - {fileID: 1790852888781467827, guid: d35317174b15408f9c1cd04837f24df6, type: 2}
+  - {fileID: 1790852888781468054, guid: d820ce1145bd41f4bd3cd9cb7f1bd30c, type: 2}
+  superSportPrefabs:
+  - {fileID: 1790852888781468978, guid: 892e011dbc764409b5295841c7e9bd5d, type: 2}
+  - {fileID: 1790852888781468220, guid: 7bd447a5b2044f369da090301af9617b, type: 2}
+  - {fileID: 1790852888781467951, guid: bb7ab3455f2b41b4bb54f9c26be7ccbb, type: 2}
+  - {fileID: 1790852888781468634, guid: b4fac7e8feea420691b5343e55e6a97b, type: 2}
+  - {fileID: 1790852888781469152, guid: c2f3617b4a62442198ecbeaf7bb873f9, type: 2}
+  policePrefabs:
+  - {fileID: 1790852888781468913, guid: f2b15ec9256d431080331204072b3dfa, type: 2}
+  - {fileID: 1790852888781468060, guid: e1f33f9a81334275a13867a526cf9960, type: 2}
+  - {fileID: 1790852888781468647, guid: 087c02557ae1496fb4fc2fe2b16333f4, type: 2}
+  taxiPrefabs:
+  - {fileID: 1790852888781468654, guid: c55e799ccbea42d49c7e7387c46e955e, type: 2}
+  - {fileID: 1790852888781468553, guid: 9fd69aa41f7a498181c385b421c02400, type: 2}
+  ambulancePrefabs:
+  - {fileID: 1790852888781468292, guid: 3296a41595324de2995001c9670cff22, type: 2}
+  firetruckPrefabs:
+  - {fileID: 1790852888781469269, guid: 952ed13073aa4dcc8af120d9abaebd5f, type: 2}
+  garbageTruckPrefabs:
+  - {fileID: 1790852888781469766, guid: 97640c93136740068e242032ce913f22, type: 2}
+  skateboardPrefabs:
+  - {fileID: 1790852888781472024, guid: ef22ac6ae32146c0917f0c5056edca59, type: 2}
+  - {fileID: 1790852888781470950, guid: c6e12a1e6b8e4a60b76239b9ab927bfb, type: 2}
+  - {fileID: 1790852888781470857, guid: 45c62157b67d4f6aaef7ad9cd7df41be, type: 2}
+  - {fileID: 1790852888781471137, guid: 980daf9a6d884490bfbe468678c3e256, type: 2}
+  - {fileID: 1790852888781469621, guid: 1b878df1a2f74e078794cf6ca0f5d9a2, type: 2}
+  - {fileID: 1790852888781470862, guid: dea963ef055446b383f74196bb7beac6, type: 2}
+  - {fileID: 1790852888781470057, guid: c45d6feb00c94289be250c02dec7b0c1, type: 2}
+  - {fileID: 1790852888781470195, guid: 41710ccf0fb84e9e830bb0e7eafb2aec, type: 2}
+  - {fileID: 1790852888781470420, guid: a052e198e0c449ce822aa9673a0b501e, type: 2}
+  - {fileID: 1790852888781472119, guid: ce4c109eadef4d74871f29151f21d57a, type: 2}
+  - {fileID: 1790852888781471032, guid: 1b16195ce89045ec9c21553b3608d4b2, type: 2}
+  - {fileID: 1790852888781471597, guid: 0dc859ed51da4570aed3e07e15c8be0c, type: 2}
+  - {fileID: 1790852888781470313, guid: 3804111ce86645aebc4190d03838e6bf, type: 2}
+  - {fileID: 1790852888781472134, guid: 05483accbe694f87a951dd6c1ffadc79, type: 2}
+  - {fileID: 1790852888781470834, guid: 92eb9aadbf0f4235bc6a144fbe4a566c, type: 2}
+  airplanePrefabs:
+  - {fileID: 1790852888781470394, guid: a530d0c0c92f481497015630bd1f80a2, type: 2}
+  - {fileID: 1790852888781470996, guid: f981a92c40c04fe79dea1beeccab092c, type: 2}
+  - {fileID: 1790852888781471195, guid: d91a5eca904547b492c81e27fa29efb4, type: 2}
+  - {fileID: 1790852888781471609, guid: ffa771bf35da44ce8d069f28c37669b5, type: 2}
+  - {fileID: 1790852888781471502, guid: f4250c0dd3eb4d3b8e0ef30cae2c6025, type: 2}
+  - {fileID: 1790852888781469554, guid: 8bb34f60308a405a91d8a50fe0ddbdaf, type: 2}
+  - {fileID: 1790852888781469989, guid: 1efca01547c54d55a4f30732c9c9a892, type: 2}
+  - {fileID: 1790852888781471403, guid: c85ad467c8914e08ad6da22f525bb686, type: 2}
+  - {fileID: 1790852888781470513, guid: 6937d18c6b6340b49f1609abb5cc6f34, type: 2}
+  - {fileID: 1790852888781469852, guid: b8224ab1554b4e5eae37ebf676ad7d4d, type: 2}
+  bicycles:
+  - {fileID: 1790852886885624388, guid: 1367a3cdfacb4820906c23becab73f73, type: 2}
+  - {fileID: 1790852886885624937, guid: d3a667deeed34064a7117ed68c9b358f, type: 2}
+  - {fileID: 1790852886885625946, guid: 7a15eb281fd947c3be0d3848c3c14f91, type: 2}
+  - {fileID: 1790852886885625117, guid: ddff1fe55fdf41689a4cb807632ee012, type: 2}
+  - {fileID: 1790852886885624391, guid: 20a5cd2ea8474f85a756def65c385af3, type: 2}
+  - {fileID: 1790852886885622415, guid: 4558d0430f77437692cef6df6e4138b7, type: 2}
+  - {fileID: 1790852886885622265, guid: 5d19686ba7ae426480e9b0db0d67e211, type: 2}
+  - {fileID: 1790852886885624614, guid: c885ad4b8a9949f9b608d4fb1d997018, type: 2}
+  gyroboards:
+  - {fileID: 1790852886885622157, guid: f0443c5a42b04663be9afe12aeaa5217, type: 2}
+  - {fileID: 1790852886885624203, guid: 7e9c575cb625495db71411050b708174, type: 2}

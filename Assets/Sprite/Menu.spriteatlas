@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Menu
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: fc6f085cd8c37424d9f9e2d5a7244c7b, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - d123c0f2b18537f4888a6ca5a6b8e880: 21300000
+    - 6cb5d3774d6bad347a42676097c96466: 21300000
+    - 3f3b58874430e74459e9a72ed9d00b57: 21300000
+    - dc0631971f43beb4d88f2507360796c7: 21300000
+    - 090fc6a785c1f5c458ad0220c671aef0: 21300000
+    - ff6f013872e8d9544a3539756a05486a: 21300000
+    - 42cd6e48c1ae40d48b20c92358ebbdff: 21300000
+    - 159cad5840c20304a85ddea51facd0c7: 21300000
+    - 323cfd19bc7e56e4cab481c0e98afe3b: 21300000
+    - 86520669fe4923242959d35551bd9ed3: 21300000
+    - 4be9b32a0d8469d4b89cf3a8af1e4025: 21300000
+    - a1b272ea5bbe83f4f80f77cd21e8ea63: 21300000
+    - 520e528e7bf941940bbb439be6a60749: 21300000
+    - caa0575f7e5acc74aa7370024d21f771: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d123c0f2b18537f4888a6ca5a6b8e880, type: 3}
+  - {fileID: 21300000, guid: 6cb5d3774d6bad347a42676097c96466, type: 3}
+  - {fileID: 21300000, guid: 3f3b58874430e74459e9a72ed9d00b57, type: 3}
+  - {fileID: 21300000, guid: dc0631971f43beb4d88f2507360796c7, type: 3}
+  - {fileID: 21300000, guid: 090fc6a785c1f5c458ad0220c671aef0, type: 3}
+  - {fileID: 21300000, guid: ff6f013872e8d9544a3539756a05486a, type: 3}
+  - {fileID: 21300000, guid: 42cd6e48c1ae40d48b20c92358ebbdff, type: 3}
+  - {fileID: 21300000, guid: 159cad5840c20304a85ddea51facd0c7, type: 3}
+  - {fileID: 21300000, guid: 323cfd19bc7e56e4cab481c0e98afe3b, type: 3}
+  - {fileID: 21300000, guid: 86520669fe4923242959d35551bd9ed3, type: 3}
+  - {fileID: 21300000, guid: 4be9b32a0d8469d4b89cf3a8af1e4025, type: 3}
+  - {fileID: 21300000, guid: a1b272ea5bbe83f4f80f77cd21e8ea63, type: 3}
+  - {fileID: 21300000, guid: 520e528e7bf941940bbb439be6a60749, type: 3}
+  - {fileID: 21300000, guid: caa0575f7e5acc74aa7370024d21f771, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - next back
+  - setting btn
+  - btn red
+  - coin bar
+  - shadow
+  - btn green
+  - list btn
+  - pop up
+  - frame
+  - back btn
+  - next
+  - btn yellow
+  - white_menu
+  - coin
+  m_RenderDataMap: {}
+  m_Tag: Menu
+  m_IsVariant: 0

@@ -1,0 +1,161 @@
+﻿{
+  "banner": {
+    "isShow": true,
+    "isAutoShow": true,
+    "pos": 1
+  },
+  "openApp": {
+    "isUseAllAdmob": true,
+    "isShowWhenResume": true,
+    "isShowAfterFullScreenAds": false,
+    "isShowAfterFullScreenAds2": false
+  },
+  "isEnableInterstitial": true,
+  "minTimeInterstitialShow": 30,
+  "decreaseInterTPI": 2,
+  "interstitial": [
+    {
+      "pos": "weapon_buy",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "weapon_next",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "weapon_back",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "character_next",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "character_buy",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "character_skin",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "character_back",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "menu_weapon",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "menu_character",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "menu_options",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "menu_options_button",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "menu_play",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "gameplay_minimap",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "gameplay_minimap_back",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "gameplay_pause",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "gameplay_changegun",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "gameplay_vehicle_button",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "gameplay_vehicle_dump",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "gameplay_garage",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "gameplay_shopping",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "gameplay_Interact",
+      "isShow": true,
+      "timeShow": 40
+    },
+    {
+      "pos": "gameplay_quest_continue",
+      "isShow": true,
+      "timeShow": 40
+    },
+    {
+      "pos": "gameplay_quest_exit",
+      "isShow": true,
+      "timeShow": 40
+    },
+    {
+      "pos": "gameplay_quest_close",
+      "isShow": true,
+      "timeShow": 40
+    },
+    {
+      "pos": "gameplay_atm_button",
+      "isShow": true,
+      "timeShow": 40
+    },
+    {
+      "pos": "gameplay_skill_1",
+      "isShow": true,
+      "timeShow": 20
+    },
+    {
+      "pos": "gameplay_die",
+      "isShow": true,
+      "timeShow": 20
+    }
+  ],
+  "breakAd": {
+    "isUse": false,
+    "notiBeforeBreakAd": 5,
+    "timeShow": 0
+  },
+  "isEnableNative": false
+}
+
+

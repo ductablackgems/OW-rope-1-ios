@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6669f5832854451a71a1a0a3737f08f, type: 3}
+  m_Name: SpidermanGunIKMappings
+  m_EditorClassIdentifier: 
+  mappings:
+  - gunType: 1
+    useLeftHandIKOffset: 1
+    leftHandOffset: {x: 0.015, y: 0, z: 0.04}
+    useRightHandIK: 0
+    rightHandIKLocalPosition: {x: -0.07600051, y: -0.04299149, z: 0.3009776}
+    rightHandIKLocalRotation: {x: 0.3484266, y: -0.4523559, z: -0.1440494, w: 0.8082221}
+  - gunType: 2
+    useLeftHandIKOffset: 1
+    leftHandOffset: {x: 0.05, y: -0.01, z: 0.01}
+    useRightHandIK: 0
+    rightHandIKLocalPosition: {x: -0.16, y: -0.04, z: 0.279}
+    rightHandIKLocalRotation: {x: -0.49248117, y: 0.16590941, z: -0.12348819, w: -0.84539163}
+  - gunType: 3
+    useLeftHandIKOffset: 1
+    leftHandOffset: {x: 0.03, y: 0.06, z: 0.03}
+    useRightHandIK: 0
+    rightHandIKLocalPosition: {x: -0.16, y: 0.058, z: 0.3}
+    rightHandIKLocalRotation: {x: 0.3835173, y: -0.199744, z: 0.06705476, w: 0.8991777}
+  - gunType: 4
+    useLeftHandIKOffset: 1
+    leftHandOffset: {x: 0.03, y: 0, z: 0.02}
+    useRightHandIK: 0
+    rightHandIKLocalPosition: {x: 0, y: 0, z: 0}
+    rightHandIKLocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  - gunType: 5
+    useLeftHandIKOffset: 1
+    leftHandOffset: {x: 0.02, y: 0.01, z: 0.02}
+    useRightHandIK: 0
+    rightHandIKLocalPosition: {x: -0.1553, y: -0.0318, z: 0.3}
+    rightHandIKLocalRotation: {x: 0.446039, y: -0.2056817, z: -0.03153395, w: 0.8704883}
+  - gunType: 6
+    useLeftHandIKOffset: 1
+    leftHandOffset: {x: 0.03, y: 0, z: 0.04}
+    useRightHandIK: 0
+    rightHandIKLocalPosition: {x: -0.113, y: 0.012, z: 0.229}
+    rightHandIKLocalRotation: {x: 0.3153509, y: -0.2488101, z: -0.001366709, w: 0.915776}
+  - gunType: 7
+    useLeftHandIKOffset: 1
+    leftHandOffset: {x: -0.01, y: 0, z: -0.04}
+    useRightHandIK: 0
+    rightHandIKLocalPosition: {x: -0.113, y: 0.012, z: 0.229}
+    rightHandIKLocalRotation: {x: 0.3153509, y: -0.2488101, z: -0.001366709, w: 0.915776}
+  - gunType: 8
+    useLeftHandIKOffset: 1
+    leftHandOffset: {x: 0.03, y: -0.06, z: 0.04}
+    useRightHandIK: 0
+    rightHandIKLocalPosition: {x: -0.07600051, y: -0.04299149, z: 0.3009776}
+    rightHandIKLocalRotation: {x: 0.3484266, y: -0.4523559, z: -0.1440494, w: 0.8082221}
