@@ -20,7 +20,7 @@ namespace _0.OW.Scripts.OWQuest.Entity
            
         }
 
-        private void OnCollisionEnter(Collision other)
+        private void OnTriggerEnter(Collider other)
         {
             if (other.gameObject.tag == "Player")
             {
@@ -28,13 +28,15 @@ namespace _0.OW.Scripts.OWQuest.Entity
                 LogHelper.LogYellow("Show dialog");
             }
         }
-        private void OnCollisionExit(Collision other)
+
+        private void OnTriggerExit(Collider other)
         {
             if (other.gameObject.tag == "Player")
             {
                 OWManager.instance.dialogButton.HideObject();
             }
         }
+
 
         [Button("Bắt đầu giao tiếp")]
         public void Interact()
