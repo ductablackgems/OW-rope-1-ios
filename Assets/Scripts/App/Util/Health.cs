@@ -207,7 +207,7 @@ namespace App.Util
 			}
 			else
 			{
-				// targetBone = component.GetBoneTransform(HumanBodyBones.Hips);
+				targetBone = component.GetBoneTransform(HumanBodyBones.Hips);
 			}
 		}
 	}

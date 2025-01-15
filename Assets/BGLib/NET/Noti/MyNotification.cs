@@ -95,7 +95,7 @@ namespace BG_Library.NET.Noti
         public static void CancelAll()
         {
 #if UNITY_ANDROID && !UNITY_EDITOR
-         AndroidNotificationCenter.CancelAllNotifications();
+        AndroidNotificationCenter.CancelAllNotifications();
 #elif UNITY_IOS
             iOSNotificationCenter.RemoveScheduledNotification("_notification_01");
             iOSNotificationCenter.RemoveDeliveredNotification("_notification_01");

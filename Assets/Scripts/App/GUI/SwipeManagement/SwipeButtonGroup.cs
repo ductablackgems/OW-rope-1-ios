@@ -21,14 +21,14 @@ namespace App.GUI.SwipeManagement
 
 		public void Hide()
 		{
-			// for (int i = 0; i < buttons.Length; i++)
-			// {
-			// 	ETCButton eTCButton = buttons[i];
-			// 	if (!(eTCButton == null))
-			// 	{
-			// 		eTCButton.visible = false;
-			// 	}
-			// }
+			for (int i = 0; i < buttons.Length; i++)
+			{
+				ETCButton eTCButton = buttons[i];
+				if (!(eTCButton == null))
+				{
+					eTCButton.visible = false;
+				}
+			}
 		}
 
 		public bool PressedDown()

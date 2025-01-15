@@ -58,11 +58,11 @@ namespace App.GUI.Player
 				if (grenadePrefabs.TryGetValue(lastGrenadeType, out WeaponInfo value))
 				{
 					image.sprite = value.icon;
-					// button.normalSprite = value.icon;
-					// button.pressedSprite = value.icon;
-					// throwGrenadeImage.sprite = value.icon;
-					// throwGrenadeButton.normalSprite = value.icon;
-					// throwGrenadeButton.pressedSprite = value.icon;
+					button.normalSprite = value.icon;
+					button.pressedSprite = value.icon;
+					throwGrenadeImage.sprite = value.icon;
+					throwGrenadeButton.normalSprite = value.icon;
+					throwGrenadeButton.pressedSprite = value.icon;
 				}
 			}
 			if (lastAmmo != grenadeSave.ammo)

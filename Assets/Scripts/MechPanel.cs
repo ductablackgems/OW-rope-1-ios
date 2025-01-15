@@ -102,15 +102,15 @@ public class MechPanel : AbstractPanel
 
 	private void ConfigureTechnologyControls()
 	{
-		// if (!(mechController == null))
-		// {
-		// 	MechTechnology technology = mechController.Technology;
-		// 	if (!(technology == null))
-		// 	{
-		// 		Sprite sprite = technology.CanFly ? ImageFly : ImageTransform;
-		// 		// buttonTechnology.normalSprite = sprite;
-		// 		// buttonTechnology.pressedSprite = sprite;
-		// 	}
-		// }
+		if (!(mechController == null))
+		{
+			MechTechnology technology = mechController.Technology;
+			if (!(technology == null))
+			{
+				Sprite sprite = technology.CanFly ? ImageFly : ImageTransform;
+				buttonTechnology.normalSprite = sprite;
+				buttonTechnology.pressedSprite = sprite;
+			}
+		}
 	}
 }

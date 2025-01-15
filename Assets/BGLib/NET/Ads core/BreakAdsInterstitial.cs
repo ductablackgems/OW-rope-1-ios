@@ -109,7 +109,9 @@ namespace BG_Library.NET
 				{
 					timer = 0;
 					isCallNoti = false;
-
+#if IGNORE_ADS
+					break;		
+#endif
 					AdsManager.ShowInterstitial(BgAdsConst.break_ads);
 					break;
 				}

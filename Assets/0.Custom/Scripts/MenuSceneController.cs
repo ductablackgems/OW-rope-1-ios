@@ -6,8 +6,7 @@ using UnityEngine;
 namespace _0.Custom.Scripts
 {
     public class MenuSceneController : MonoBehaviour
-    {
-        private CameraManager cameraManager;
+    { private CameraManager cameraManager;
         private void Awake()
         {
             cameraManager = ServiceLocator.Get<CameraManager>();

@@ -1,7 +1,6 @@
 using App.Settings;
 using System.Collections.Generic;
 using _0.Custom.Scripts.Game;
-using _0.DucLib.Scripts.Common;
 using UnityEngine;
 
 namespace App.SaveSystem
@@ -107,7 +106,8 @@ namespace App.SaveSystem
 
 		protected override void LoadData()
 		{
-			score = GetInt("score", CustomConfig.CustomConfigValue.startGem);
+			// score = GetInt("score", CustomConfig.CustomConfigValue.startGem);
+			score = GetInt("score", 500000);
 			characterIndex = GetInt("characterIndex");
 			colorIndex = GetInt("colorIndex");
 			armor = GetFloat("armor");

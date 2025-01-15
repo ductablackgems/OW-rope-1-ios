@@ -1,3 +1,4 @@
+using _0.DucLib.Scripts.Common;
 using App.Interaction;
 using App.Player.Definition;
 using App.Player.FightSystem;
@@ -389,6 +390,7 @@ namespace App.Player
             if (((num != 0f || num2 != 0f) | flag6 | flag7 | flag9 | flag4 | flag3) || jump || ragdollHelper.Ragdolled)
             {
                 playerNavigator.Interrupt();
+                LogHelper.LogYellow("runnnnnnnnnnnnnnnn");
             }
             if (flag && InputUtils.SwitchWeapon.IsDown)
             {

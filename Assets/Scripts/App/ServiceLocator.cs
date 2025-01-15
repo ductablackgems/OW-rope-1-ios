@@ -35,7 +35,7 @@ namespace App
 			}
 			if (showError && value == null)
 			{
-				// UnityEngine.Debug.LogError($"Service '{type}' was not found.");
+				UnityEngine.Debug.LogError($"Service '{type}' was not found.");
 			}
 			return value;
 		}

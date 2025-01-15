@@ -154,6 +154,9 @@ namespace BG_Library.NET
 
         private void OnApplicationPause(bool pauseStatus)
         {
+#if IGNORE_ADS
+            return;
+#endif
             if (!pauseStatus)
             {
                 if (firstTimeOpenApp)

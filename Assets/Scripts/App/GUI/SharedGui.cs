@@ -41,7 +41,7 @@ namespace App.GUI
 
 		public GameObject pauseButton;
 
-		// public GameObject weaponInfo;
+		public GameObject weaponInfo;
 
 		public GameObject healthInfo;
 
@@ -127,8 +127,8 @@ namespace App.GUI
 				return miniMap;
 			case SharedGuiType.PauseButton:
 				return pauseButton;
-			// case SharedGuiType.WeaponInfo:
-			// 	return weaponInfo;
+			case SharedGuiType.WeaponInfo:
+				return weaponInfo;
 			case SharedGuiType.LeftJoystick:
 				return leftJoystick;
 			case SharedGuiType.Crosshair:

@@ -94,7 +94,7 @@ namespace BG_Library.DEBUG
                 Ins = this;
             }
 
-#if UNITY_EDITOR || IGNORE_ADS
+#if UNITY_EDITOR
             IsDebug = true;
 #else
             IsDebug = Debug.isDebugBuild;

@@ -10,7 +10,6 @@ public class GetMemory : MonoBehaviour
 
 	private void Awake()
 	{
-		
 		settingsSave = ServiceLocator.Get<SaveEntities>().SettingsSave;
 		memory = SystemInfo.systemMemorySize;
 		settingsSave.memoryRam = memory;

@@ -10,18 +10,22 @@ namespace _0.DucLib.Scripts.Editor
         {
             OpenScene("Splash");
         }
-        [MenuItem("Tools/Load Mini Game")]
+        [MenuItem("Tools/Load Menu")]
         public static void LoadMenu()
         {
-            OpenScene("MiniGame");
+            OpenScene("Menu");
         }
-        [MenuItem("Tools/Load Gameplay")]
+        [MenuItem("Tools/Load Game")]
         public static void LoadGame()
         {
             OpenScene("SmallCity (Simple)");
         }
         
-      
+        [MenuItem("Tools/Demo Scene")]
+        public static void LoadDemoScene()
+        {
+            OpenScene("DemoScene");
+        }
         private static void OpenScene(string sceneName)
         {
             foreach (var scene in EditorBuildSettings.scenes)

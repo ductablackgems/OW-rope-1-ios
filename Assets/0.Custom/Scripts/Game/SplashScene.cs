@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using _0.DucLib.Scripts.Common;
 using BG_Library.NET;
 using UnityEngine;
@@ -19,6 +18,5 @@ namespace _0.Custom.Scripts.Game
             yield return new WaitUntil(() => RemoteConfig.Ins.isDataFetched);
             SceneManager.LoadScene(1);
         }
-
     }
 }

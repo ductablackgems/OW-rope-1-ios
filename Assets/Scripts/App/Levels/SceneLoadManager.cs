@@ -9,7 +9,7 @@ namespace App.Levels
 {
     public class SceneLoadManager : MonoBehaviour
     {
-        public GameObject loadObj;
+        public Image loadingUI;
         public Text valueLoadingUI;
 
         private SettingsSaveEntity settingsSave;
@@ -42,7 +42,7 @@ namespace App.Levels
 
         private IEnumerator PlayLoading(string NameLevel)
         {
-            loadObj.gameObject.SetActive(true);
+            loadingUI.transform.parent.gameObject.SetActive(value: true);
             if (SceneManager.GetActiveScene().name == "Menu")
             {
                 yield return new WaitForSeconds(1f);
@@ -58,7 +58,7 @@ namespace App.Levels
                 yield return operation.isDone;
                 a = operation.progress;
                 b = Math.Round(a, 2);
-                // loadingUI.fillAmount = (float)b;
+                loadingUI.fillAmount = (float)b;
                 valueLoadingUI.text = ((float)b).ToString("P1");
                 if (operation.progress >= 0.89f)
                 {

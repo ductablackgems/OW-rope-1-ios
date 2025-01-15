@@ -1,5 +1,4 @@
 ﻿using System;
-using _0.DucLib.Scripts.Common;
 using BG_Library.NET;
 using UnityEngine;
 
@@ -25,7 +24,7 @@ namespace _0.Custom.Scripts.Game
             RemoteConfig.OnFetchComplete -= FetchComplete;
         }
 
-        private void FetchComplete()
+        public void FetchComplete()
         {
             CustomConfigValue = JsonUtility.FromJson<CustomConfigValue>(RemoteConfig.Ins.custom_config);
         }

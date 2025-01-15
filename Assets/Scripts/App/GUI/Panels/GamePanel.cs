@@ -69,7 +69,7 @@ namespace App.GUI.Panels
 			sharedGui.grenadeButton.SetActive(value: true);
 			if (sharedGui.laserButton != null)
 			{
-				sharedGui.laserButton.SetActive(value: true);
+				// sharedGui.laserButton.SetActive(value: true);
 			}
 			SetDogAttackButton();
 		}
@@ -167,10 +167,10 @@ namespace App.GUI.Panels
 				return;
 			}
 			Sprite vehicleIcon = SettingsManager.GameSettings.GetVehicleIcon(driver.DriverType);
-			// if (vehicleETCButton.normalSprite != vehicleIcon || vehicleETCButton.pressedSprite != vehicleIcon)
-			// {
-			// 	ETCInput.SetButtonSprite(vehicleETCButton.name, vehicleIcon, vehicleIcon, vehicleETCButton.normalColor);
-			// }
+			if (vehicleETCButton.normalSprite != vehicleIcon || vehicleETCButton.pressedSprite != vehicleIcon)
+			{
+				ETCInput.SetButtonSprite(vehicleETCButton.name, vehicleIcon, vehicleIcon, vehicleETCButton.normalColor);
+			}
 			vehicleETCButton.gameObject.SetActive(value: true);
 		}
 
