@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using _0.OW.Scripts;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -25,6 +26,7 @@ public class FloatingJoystick : Joystick
     {
         //background.gameObject.SetActive(false);
         background.anchoredPosition = startPosition;
+        OWManager.instance.playerController.playerMovement.OnJoyEnd();
         base.OnPointerUp(eventData);
     }
 

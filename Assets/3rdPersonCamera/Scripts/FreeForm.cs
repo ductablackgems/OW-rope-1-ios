@@ -82,9 +82,9 @@ namespace ThirdPersonCamera
                 if (lookup == null)
                     Debug.LogError("CameraInputSampling not found. Consider adding it to get input sampling or enable customInput to skip this message");
 #else
-                var lookup = GetComponent<CameraInputSampling_FreeForm>();
-                if (lookup == null)
-                    Debug.LogError("CameraInputSampling_FreeForm not found on " + transform.name + ". Consider adding it to get input sampling or enable customInput to skip this message");
+                // var lookup = GetComponent<CameraInputSampling_FreeForm>();
+                // if (lookup == null)
+                //     Debug.LogError("CameraInputSampling_FreeForm not found on " + transform.name + ". Consider adding it to get input sampling or enable customInput to skip this message");
 #endif
             }
         }

@@ -24,8 +24,8 @@ namespace _0.OW.Scripts.OWQuest.Entity
         {
             if (other.gameObject.tag == "Player")
             {
-                OWManager.instance.dialogButton.ShowObject();
-                LogHelper.LogYellow("Show dialog");
+                OW_UIController.instance.dialogButton.ShowObject();
+                OWManager.instance.currentNpcEntity = this;
             }
         }
 
@@ -33,7 +33,8 @@ namespace _0.OW.Scripts.OWQuest.Entity
         {
             if (other.gameObject.tag == "Player")
             {
-                OWManager.instance.dialogButton.HideObject();
+                OW_UIController.instance.dialogButton.HideObject();
+                if(OWManager.instance.currentNpcEntity == this) OWManager.instance.currentNpcEntity = null;
             }
         }
 
