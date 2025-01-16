@@ -23,6 +23,11 @@ namespace _0.OW.Scripts.Data
             get => PlayerPrefs.GetInt("QuestCollection", 0);
             set => PlayerPrefs.SetInt("QuestCollection", value);
         }
+        public static int QuestCollectionCount
+        {
+            get => PlayerPrefs.GetInt("QuestCollectionCount", 0);
+            set => PlayerPrefs.SetInt("QuestCollectionCount", value);
+        }
 
         public static OW_ProgressType QuestProgressType
         {

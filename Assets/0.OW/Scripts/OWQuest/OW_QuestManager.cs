@@ -10,16 +10,16 @@ namespace _0.OW.Scripts.OWQuest
     {
         public List<OW_Quest> questList = new List<OW_Quest>();
 
-        public OW_Quest GetCurrentQuest()
+        public OW_Quest ActiveCurrentQuest()
         {
             if (QuestData.QuestIndex >= questList.Count) return null;
             var currentQuest = questList[QuestData.QuestIndex];
-            CheckProgressType(currentQuest);
+            ActiveQuest(currentQuest);
             return currentQuest;
         }
 
 
-        private void CheckProgressType(OW_Quest quest)
+        private void ActiveQuest(OW_Quest quest)
         {
             switch (QuestData.QuestProgressType)
             {
@@ -27,7 +27,7 @@ namespace _0.OW.Scripts.OWQuest
                     OWManager.instance.ActiveNPC(quest, OW_ProgressType.QuestGiver, quest.questGiver.npcName);
                     break;
                 case OW_ProgressType.InProgress:
-                    LogHelper.LogYellow("Quest Progress: InProgress");
+                    CheckProgress(quest);
                     break;
                 case OW_ProgressType.QuestReceiver:
                     OWManager.instance.ActiveNPC(quest, OW_ProgressType.QuestReceiver, quest.questReceiver.npcName);
@@ -35,29 +35,41 @@ namespace _0.OW.Scripts.OWQuest
             }
         }
 
-        public void CompleteObjective(OW_Quest quest)
+        private void CheckProgress(OW_Quest quest)
         {
-            if (CheckCompletion(quest))
+            switch (quest.objective[QuestData.QuestCollection].objectiveType)
             {
-                CompleteQuest(quest);
+                case OW_ObjectiveType.TalkToNPC:
+                    var currentNpcQuestData = quest.objective[QuestData.QuestCollection].targetNPC.npcName;
+                    OWManager.instance.ActiveNPC(quest, OW_ProgressType.InProgress, currentNpcQuestData);
+                    break;
+                case OW_ObjectiveType.KillEnemies:
+                    break;
+                case OW_ObjectiveType.CollectItems:
+                    break;
             }
         }
 
-        private bool CheckCompletion(OW_Quest quest)
+        public void CompleteGiver()
         {
-            // Kiểm tra nếu các mục tiêu của nhiệm vụ đã hoàn thành
-            return true; // Tùy chỉnh logic ở đây
+            QuestData.QuestProgressType = OW_ProgressType.InProgress;
+            ActiveCurrentQuest();
         }
 
-        private void CompleteQuest(OW_Quest quest)
+        public void CompleteProgress()
         {
-            GiveReward(quest.reward);
+            QuestData.QuestCollection += 1;
+            if (QuestData.QuestCollection >= questList[QuestData.QuestIndex].objective.Count)
+            {
+                QuestData.QuestCollection = 0;
+                QuestData.QuestProgressType = OW_ProgressType.QuestReceiver;
+            }
+            ActiveCurrentQuest();
         }
 
-        private void GiveReward(OW_Reward reward)
+        public void CompleteQuest()
         {
-            Debug.Log($"Reward: {reward.experiencePoints} XP, {reward.gold} Gold");
-            // Thêm logic nhận thưởng
+            
         }
     }
 }

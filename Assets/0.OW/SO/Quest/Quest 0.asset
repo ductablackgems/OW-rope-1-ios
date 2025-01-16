@@ -10,34 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c16293ecea447f59b8c661e2f41272f, type: 3}
-  m_Name: Quest
+  m_Name: Quest 0
   m_EditorClassIdentifier: 
-  questName: Welcome city
+  questName: Investigate Suspicious Activities
   questGiver:
-    npcName: NPC 1
+    npcName: Sheriff
     dialogues:
-    - Chao
-    - xin
-    - 9182
+    - There have been rumors of suspicious activities around town. I need someone
+      to gather information for me.
+    - 'Go find these people: Tom at the docks, Martha at the market, and Jake near
+      the forge.'
+    - Once you have their reports, return to me.
   objective:
-  - objectiveType: 2
+  - objectiveType: 0
     targetNPC:
-      npcName: 
-      dialogues: []
-    targetEnemy:
-      name: 
-      health: 0
-      icon: {fileID: 0}
-    killCount: 1
-    targetQuestItem:
-      itemName: 
-      icon: {fileID: 0}
-      itemValue: 0
-    itemCount: 3
-  - objectiveType: 1
-    targetNPC:
-      npcName: 
-      dialogues: []
+      npcName: Jake
+      dialogues:
+      - "A stranger came by asking about weapons this morning. He didn\u2019t look
+        like he was from around here."
     targetEnemy:
       name: 
       health: 0
@@ -50,8 +40,10 @@ MonoBehaviour:
     itemCount: 0
   - objectiveType: 0
     targetNPC:
-      npcName: 
-      dialogues: []
+      npcName: Martha
+      dialogues:
+      - "Someone bought a lot of rope and supplies from me yesterday. It felt odd,
+        but I didn\u2019t ask questions."
     targetEnemy:
       name: 
       health: 0
@@ -62,12 +54,28 @@ MonoBehaviour:
       icon: {fileID: 0}
       itemValue: 0
     itemCount: 0
+  - objectiveType: 0
+    targetNPC:
+      npcName: Old Tom
+      dialogues:
+      - "I saw a strange boat near the cove last night. It didn\u2019t look like
+        any fishing boat I\u2019ve seen before."
+    targetEnemy:
+      name: 
+      health: 0
+      icon: {fileID: 0}
+    killCount: 1
+    targetQuestItem:
+      itemName: 
+      icon: {fileID: 0}
+      itemValue: 0
+    itemCount: 3
   questReceiver:
     npcName: NPC 1
     dialogues:
-    - 1
-    - 23
-    - 433
+    - "You\u2019re back! What did you find?"
+    - "Hmm\u2026 sounds like something suspicious is brewing. Thank you for your
+      help."
   reward:
     experiencePoints: 0
     gold: 0

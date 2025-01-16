@@ -21,7 +21,6 @@ namespace _0.OW.Scripts.Player
         private Vector2 direction;
         private const string HorizontalInput = "Horizontal";
         private const string VerticalInput = "Vertical";
-        private bool stop = false;
         public void OnJoyMove(Vector2 assist)
         {
             direction = assist;
@@ -58,12 +57,12 @@ namespace _0.OW.Scripts.Player
 
         public void StopMovement()
         {
-            stop = true;
+           
         }
 
         public void ResumeMovement()
         {
-            stop = false;
+           
         }
         private void HandleCharacterInput()
         {
@@ -72,7 +71,7 @@ namespace _0.OW.Scripts.Player
                 direction.y + Input.GetAxisRaw(VerticalInput)
             ).normalized;
 
-            if(stop) combinedInput = Vector2.zero;
+            if(OWManager.instance.playerStop) combinedInput = Vector2.zero;
             if (combinedInput != Vector2.zero)
             {
                 if (Character.MaxStableMoveSpeed < Character.MaxMoveSpeed)

@@ -7,5 +7,6 @@ namespace _0.OW.Scripts.OWQuest.Entity
     {
         public string npcName;
         public string defaultTalk;
+        public string job;
     }
 }

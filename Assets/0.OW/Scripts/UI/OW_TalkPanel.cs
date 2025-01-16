@@ -50,10 +50,11 @@ namespace _0.OW.Scripts.UI
         public void ChoiceQuest()
         {
             currentIndex = 0;
-            txtNext.text = "NEXT";
             buttonQuest.SetActive(false);
             buttonNext.SetActive(true);
             GetCurrentNpcData();
+            var ttt = currentNpcQuestData.dialogues.Count > 1 ? "CONFIRM" : "NEXT";
+            txtNext.text = ttt;
             content.text = currentNpcQuestData.dialogues[currentIndex];
         }
 
@@ -65,12 +66,12 @@ namespace _0.OW.Scripts.UI
                     currentNpcQuestData = currentNPC.npcQuestData.questGiver;
                     break;
                 case OW_ProgressType.InProgress:
+                    currentNpcQuestData = currentNPC.npcQuestData.objective[QuestData.QuestCollection].targetNPC;
                     break;
                 case OW_ProgressType.QuestReceiver:
                     currentNpcQuestData = currentNPC.npcQuestData.questReceiver;
                     break;
             }
-
         }
 
         public void Exit()
@@ -85,9 +86,16 @@ namespace _0.OW.Scripts.UI
             currentIndex += 1;
             if (currentIndex == currentNpcQuestData.dialogues.Count)
             {
+                if (currentNPC.questType == OW_ProgressType.InProgress)
+                {
+                    TalkComplete();
+                    Exit();
+                    return;
+                }
+
                 var ttt = currentNPC.questType == OW_ProgressType.QuestReceiver ? "COMPLETE" : "CONFIRM";
                 content.text = "hehe";
-                reward.SetActive(true);
+                reward.SetActive(currentNPC.questType != OW_ProgressType.InProgress);
                 txtNext.text = ttt;
             }
             else if (currentIndex > currentNpcQuestData.dialogues.Count)
@@ -108,10 +116,11 @@ namespace _0.OW.Scripts.UI
                 case OW_ProgressType.QuestGiver:
                     QuestData.QuestProgressType = OW_ProgressType.InProgress;
                     RemoveNPC();
-                    // sang buoc tiep theo
+                    OW_QuestManager.Instance.CompleteGiver();
                     break;
                 case OW_ProgressType.InProgress:
-                    // sang buoc tiep theo
+                    RemoveNPC();
+                    OW_QuestManager.Instance.CompleteProgress();
                     break;
                 case OW_ProgressType.QuestReceiver:
                     QuestData.StartNewQuestion();
@@ -123,6 +132,7 @@ namespace _0.OW.Scripts.UI
             {
                 currentNPC.npcQuestData = null;
                 currentNPC.noti.SetActive(false);
+                currentNPC.notiComplete.SetActive(false);
                 // currentNPC.notiComplete.SetActive(false);
             }
         }
