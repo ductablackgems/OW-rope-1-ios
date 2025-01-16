@@ -12,25 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c16293ecea447f59b8c661e2f41272f, type: 3}
   m_Name: Quest
   m_EditorClassIdentifier: 
-  questName: Quest 1
-  questDescription: Quest 1
+  questName: Welcome city
   questGiver:
-    npcName: 
+    npcName: NPC 1
     dialogues:
-    - 
-    - 
-    - 
-    portrait: {fileID: 0}
-  questReceiver:
-    npcName: 
-    dialogues: []
-    portrait: {fileID: 0}
+    - Chao
+    - xin
+    - 9182
   objective:
   - objectiveType: 2
     targetNPC:
       npcName: 
       dialogues: []
-      portrait: {fileID: 0}
     targetEnemy:
       name: 
       health: 0
@@ -45,7 +38,6 @@ MonoBehaviour:
     targetNPC:
       npcName: 
       dialogues: []
-      portrait: {fileID: 0}
     targetEnemy:
       name: 
       health: 0
@@ -60,7 +52,6 @@ MonoBehaviour:
     targetNPC:
       npcName: 
       dialogues: []
-      portrait: {fileID: 0}
     targetEnemy:
       name: 
       health: 0
@@ -71,6 +62,12 @@ MonoBehaviour:
       icon: {fileID: 0}
       itemValue: 0
     itemCount: 0
+  questReceiver:
+    npcName: NPC 1
+    dialogues:
+    - 1
+    - 23
+    - 433
   reward:
     experiencePoints: 0
     gold: 0

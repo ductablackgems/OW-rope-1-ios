@@ -14,7 +14,7 @@ namespace _0.OW.Scripts.OWQuest
     public enum OW_ProgressType
     {
         [LabelText("Nhận nhiệm vụ")] QuestGiver =0,
-        [LabelText("Thực hiện nhiệm vụ")] InProgress =1,
+        [LabelText("Thực hiện nhiệm vụ")] InProgress = 1,
         [LabelText("Trả nhiệm vụ")] QuestReceiver =2
     }
 }

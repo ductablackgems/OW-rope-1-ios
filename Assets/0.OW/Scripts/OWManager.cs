@@ -13,20 +13,39 @@ namespace _0.OW.Scripts
     {
         public OW_PlayerController playerController;
         public List<OW_NPCEntity> npcEntities = new List<OW_NPCEntity>();
-        
-        [ReadOnly]public OW_NPCEntity currentNpcEntity;
+
+
+        [ReadOnly] public OW_NPCEntity currentNpcEntity;
+        [ReadOnly] public OW_Quest currentQuest;
+
         protected override void Init()
         {
             base.Init();
-            OW_QuestManager.Instance.StartQuest();
+            GetQuest();
         }
 
-
+        public void GetQuest()
+        {
+            currentQuest = OW_QuestManager.Instance.GetCurrentQuest();
+        }
         public void StartTalkPanel()
         {
-            OW_UIController.instance.ActivePanel(OW_UIController.PanelType.TalkPanel);
+            if(currentNpcEntity == null) return;
+            OW_UIController.instance.ActiveTalkPanel(currentNpcEntity);
             playerController.playerMovement.StopMovement();
         }
-        
+        public void HideTalkPanel()
+        {
+            OW_UIController.instance.HideTalkPanel();
+            playerController.playerMovement.ResumeMovement();
+        }
+
+        public void ActiveNPC(OW_Quest npcQuestData, OW_ProgressType type, string nameName)
+        {
+            var npc = npcEntities.Find(x => x.npcData.npcName == nameName);
+            npc.npcQuestData = npcQuestData;
+            npc.questType = type;
+            npc.noti.SetActive(type != OW_ProgressType.QuestReceiver);
+        }
     }
 }

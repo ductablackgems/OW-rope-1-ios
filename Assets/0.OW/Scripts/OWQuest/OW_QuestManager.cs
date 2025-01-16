@@ -10,35 +10,33 @@ namespace _0.OW.Scripts.OWQuest
     {
         public List<OW_Quest> questList = new List<OW_Quest>();
 
-        public void StartQuest()
+        public OW_Quest GetCurrentQuest()
         {
-            if (QuestData.QuestIndex >= questList.Count) return;
-            var quest = questList[QuestData.QuestIndex];
-            // check progress type
-            CheckProgressType();
+            if (QuestData.QuestIndex >= questList.Count) return null;
+            var currentQuest = questList[QuestData.QuestIndex];
+            CheckProgressType(currentQuest);
+            return currentQuest;
         }
 
-        private void CheckProgressType()
+
+        private void CheckProgressType(OW_Quest quest)
         {
             switch (QuestData.QuestProgressType)
             {
-                // hiển thị các hướng dẫn liên quan đến nhiệm vụ
                 case OW_ProgressType.QuestGiver:
-                    LogHelper.LogYellow("Quest Progress: QuestGiver");
+                    OWManager.instance.ActiveNPC(quest, OW_ProgressType.QuestGiver, quest.questGiver.npcName);
                     break;
                 case OW_ProgressType.InProgress:
                     LogHelper.LogYellow("Quest Progress: InProgress");
                     break;
                 case OW_ProgressType.QuestReceiver:
-                    LogHelper.LogYellow("Quest Progress: QuestReceiver");
+                    OWManager.instance.ActiveNPC(quest, OW_ProgressType.QuestReceiver, quest.questReceiver.npcName);
                     break;
             }
         }
 
         public void CompleteObjective(OW_Quest quest)
         {
-            Debug.Log($"Objective Completed: {quest.questName}");
-            // Kiểm tra hoàn thành toàn bộ nhiệm vụ
             if (CheckCompletion(quest))
             {
                 CompleteQuest(quest);
@@ -53,8 +51,6 @@ namespace _0.OW.Scripts.OWQuest
 
         private void CompleteQuest(OW_Quest quest)
         {
-            Debug.Log($"Quest Completed: {quest.questName}");
-            // Trao thưởng
             GiveReward(quest.reward);
         }
 

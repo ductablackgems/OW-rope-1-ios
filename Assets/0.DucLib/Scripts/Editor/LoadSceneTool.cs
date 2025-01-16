@@ -21,10 +21,10 @@ namespace _0.DucLib.Scripts.Editor
             OpenScene("SmallCity (Simple)");
         }
         
-        [MenuItem("Tools/Demo Scene")]
-        public static void LoadDemoScene()
+        [MenuItem("Tools/MiniGame")]
+        public static void LoadMiniGame()
         {
-            OpenScene("DemoScene");
+            OpenScene("MiniGame");
         }
         private static void OpenScene(string sceneName)
         {
