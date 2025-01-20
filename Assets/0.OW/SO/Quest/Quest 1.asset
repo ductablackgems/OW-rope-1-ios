@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c16293ecea447f59b8c661e2f41272f, type: 3}
+  m_Name: Quest 1
+  m_EditorClassIdentifier: 
+  questName: Investigate Suspicious Activities
+  questGiver:
+    questTitle: 'Emergency Repairs '
+    questDescription: ' The Sheriff needs your help to gather specific materials
+      for a critical repair job. Talk to Jake, and collect the required items scattered
+      around the city. Once done, return to the Sheriff. '
+    npcName: Sheriff
+    dialogues:
+    - "We\u2019ve got a big problem\u2014a piece of equipment critical to the town
+      is damaged. We need materials for the repair."
+    - "Talk to Jake; he\u2019ll tell you what to do. Once you\u2019ve got everything,
+      bring it back here."
+  objective:
+  - questTitle: Speak with the Mechanic
+    questDescription: Go to Jake at the auto repair shop near the industrial district
+      to learn what materials are needed.
+    objectiveType: 0
+    targetNPC:
+      questTitle: 
+      questDescription: 
+      npcName: Jake
+      dialogues:
+      - "We\u2019re going to need 5 metal scraps and a toolbox to fix this mess.
+        You can find them scattered around the city."
+    targetEnemy:
+      name: 
+      health: 0
+      icon: {fileID: 0}
+    killCount: 1
+    targetQuestItem:
+      itemName: 
+      itemValue: 0
+    itemCount: 0
+  - questTitle: Gather Metal Scraps
+    questDescription: $"Collect {QuestData.Collection}/5 metal scraps from around
+      the industrial district."
+    objectiveType: 2
+    targetNPC:
+      questTitle: 
+      questDescription: 
+      npcName: 
+      dialogues: []
+    targetEnemy:
+      name: 
+      health: 0
+      icon: {fileID: 0}
+    killCount: 1
+    targetQuestItem:
+      itemName: Metal Scraps
+      itemValue: 1
+    itemCount: 5
+  questReceiver:
+    questTitle: Town Sheriff
+    questDescription: ' After gathering all the required materials, return to the
+      Sheriff and deliver them so repairs can begin.'
+    npcName: Sheriff
+    dialogues:
+    - "You\u2019ve got everything? Great work. We\u2019ll get started on the repairs
+      immediately.\""
+    - "You\u2019ve been a great help. Here\u2019s your reward."
+  reward:
+    experiencePoints: 500
+    gold: 100
+    specialItem: []

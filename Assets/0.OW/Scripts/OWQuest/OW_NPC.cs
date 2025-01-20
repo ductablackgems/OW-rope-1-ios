@@ -5,10 +5,9 @@ using UnityEngine;
 namespace _0.OW.Scripts.OWQuest
 {
     [System.Serializable]
-    public class OW_NPC
+    public class OW_NPC : OW_QuestDetail
     {
         public string npcName;
-
         [ListDrawerSettings(Expanded = false, ShowIndexLabels = true)]
         public List<string> dialogues;
     }

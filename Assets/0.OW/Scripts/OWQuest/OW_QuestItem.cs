@@ -9,10 +9,6 @@ namespace _0.OW.Scripts.OWQuest
         [LabelText("Tên vật phẩm")]
         public string itemName;
 
-        [PreviewField]
-        [LabelText("Hình đại diện vật phẩm")]
-        public Sprite icon;
-
         [LabelText("Giá trị vật phẩm")]
         [MinValue(0)]
         public int itemValue;

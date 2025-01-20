@@ -26,9 +26,6 @@ namespace _0.OW.Scripts.Player
             direction = assist;
         }
 
-        /// <summary>
-        /// Hàm được gọi khi joystick ngừng hoạt động.
-        /// </summary>
         public void OnJoyEnd()
         {
             direction = Vector2.zero;
@@ -70,13 +67,12 @@ namespace _0.OW.Scripts.Player
                 direction.x + Input.GetAxisRaw(HorizontalInput),
                 direction.y + Input.GetAxisRaw(VerticalInput)
             ).normalized;
-
             if(OWManager.instance.playerStop) combinedInput = Vector2.zero;
             if (combinedInput != Vector2.zero)
             {
                 if (Character.MaxStableMoveSpeed < Character.MaxMoveSpeed)
                 {
-                    Character.MaxStableMoveSpeed += (Time.deltaTime * 2);
+                    Character.MaxStableMoveSpeed += (Time.deltaTime * 1.5f);
                     ChangeState<PlayerWalk>();
                 }
                 else

@@ -4,12 +4,12 @@ using UnityEngine.Serialization;
 namespace _0.OW.Scripts.OWQuest
 {
     [System.Serializable]
-    public class OW_QuestObjective
+    public class OW_QuestObjective : OW_QuestDetail
     {
         [EnumToggleButtons]
         [LabelText("Loại mục tiêu")]
         public OW_ObjectiveType objectiveType; 
-
+        
         [ShowIf("objectiveType", OW_ObjectiveType.TalkToNPC)]
         [LabelText("NPC cần nói chuyện")]
         public OW_NPC targetNPC; 
