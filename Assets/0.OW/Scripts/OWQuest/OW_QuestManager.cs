@@ -12,6 +12,8 @@ namespace _0.OW.Scripts.OWQuest
 
         public OW_Quest ActiveCurrentQuest()
         {
+            OWManager.instance.miniMapController.HideMask();
+            OWManager.instance.HideAllQuestGroups();
             if (QuestData.QuestIndex >= questList.Count) return null;
             var currentQuest = questList[QuestData.QuestIndex];
             ActiveQuest(currentQuest);
@@ -24,13 +26,15 @@ namespace _0.OW.Scripts.OWQuest
             switch (QuestData.QuestProgressType)
             {
                 case OW_ProgressType.QuestGiver:
-                    OWManager.instance.ActiveNPC(quest, OW_ProgressType.QuestGiver, quest.questGiver.npcName);
+                    OWManager.instance.ActiveNPC(quest, OW_ProgressType.QuestGiver, quest.questGiver.npcName,
+                        vec3 => { OWManager.instance.miniMapController.ShowExclamationMask(vec3); });
                     break;
                 case OW_ProgressType.InProgress:
                     CheckProgress(quest);
                     break;
                 case OW_ProgressType.QuestReceiver:
-                    OWManager.instance.ActiveNPC(quest, OW_ProgressType.QuestReceiver, quest.questReceiver.npcName);
+                    OWManager.instance.ActiveNPC(quest, OW_ProgressType.QuestReceiver, quest.questReceiver.npcName,
+                        vec3 => { OWManager.instance.miniMapController.ShowStarMask(vec3); });
                     break;
             }
         }
@@ -41,11 +45,15 @@ namespace _0.OW.Scripts.OWQuest
             {
                 case OW_ObjectiveType.TalkToNPC:
                     var currentNpcQuestData = quest.objective[QuestData.QuestCollection].targetNPC.npcName;
-                    OWManager.instance.ActiveNPC(quest, OW_ProgressType.InProgress, currentNpcQuestData);
+                    OWManager.instance.ActiveNPC(quest, OW_ProgressType.InProgress, currentNpcQuestData,
+                        vec3 => { OWManager.instance.miniMapController.ShowQuestionMask(vec3); });
                     break;
                 case OW_ObjectiveType.KillEnemies:
+                    LogHelper.Todo("Kill enemy");
                     break;
                 case OW_ObjectiveType.CollectItems:
+                    var currentObjective = quest.objective[QuestData.QuestCollection];
+                    OWManager.instance.ShowQuestGroup(currentObjective.questTitle);
                     break;
             }
         }
@@ -64,12 +72,15 @@ namespace _0.OW.Scripts.OWQuest
                 QuestData.QuestCollection = 0;
                 QuestData.QuestProgressType = OW_ProgressType.QuestReceiver;
             }
+
             ActiveCurrentQuest();
         }
 
         public void CompleteQuest()
         {
-            
+            LogHelper.Todo(" reward ");
+
+            OWManager.instance.GetQuest();
         }
     }
 }

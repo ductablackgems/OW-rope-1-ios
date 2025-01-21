@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c16293ecea447f59b8c661e2f41272f, type: 3}
+  m_Name: Quest 2
+  m_EditorClassIdentifier: 
+  questName: Lost Artifact Retrieval
+  questGiver:
+    questTitle: 'Town Sheriff '
+    questDescription: The Sheriff urgently needs someone to investigate the theft
+      of a historical artifact and recover it before it leaves the city
+    npcName: Sheriff
+    dialogues:
+    - "The artifact stolen is a key piece of our town\u2019s history. We must get
+      it back. Talk to some locals for leads."
+  objective:
+  - questTitle: Talk to the Museum Curator
+    questDescription: Visit the museum and talk to the curator to understand what
+      was stolen and how it happened.
+    objectiveType: 0
+    targetNPC:
+      questTitle: 
+      questDescription: 
+      npcName: Museum Curator
+      dialogues:
+      - "The thief broke in late last night. They seemed to know exactly what they
+        were after. It was the town\u2019s ceremonial dagger"
+    targetEnemy:
+      name: 
+      health: 0
+      icon: {fileID: 0}
+    killCount: 1
+    targetQuestItem:
+      itemName: 
+      itemValue: 0
+    itemCount: 0
+  - questTitle: Talk to the Pawnshop Owner
+    questDescription: Visit the pawnshop in the market district and ask if the stolen
+      artifact has been brought in for sale.
+    objectiveType: 0
+    targetNPC:
+      questTitle: 
+      questDescription: 
+      npcName: Pawnshop Owner
+      dialogues:
+      - "Someone tried to sell a dagger this morning. I didn\u2019t take it, but
+        they mentioned heading toward the old warehouse near the industrial area."
+    targetEnemy:
+      name: 
+      health: 0
+      icon: {fileID: 0}
+    killCount: 1
+    targetQuestItem:
+      itemName: 
+      itemValue: 0
+    itemCount: 0
+  - questTitle: ' Investigate the Warehouse'
+    questDescription: Head to the old warehouse in the industrial district and search
+      for the stolen artifact.
+    objectiveType: 2
+    targetNPC:
+      questTitle: 
+      questDescription: 
+      npcName: 
+      dialogues: []
+    targetEnemy:
+      name: 
+      health: 0
+      icon: {fileID: 0}
+    killCount: 1
+    targetQuestItem:
+      itemName: Ceremonial Dagger
+      itemValue: 0
+    itemCount: 1
+  questReceiver:
+    questTitle: 
+    questDescription: After recovering the artifact from the warehouse, return it
+      to the Sheriff so it can be restored to the museum.
+    npcName: Sheriff
+    dialogues:
+    - "You\u2019ve done it! The artifact is safe, thanks to you."
+    - "This will go a long way in restoring our town\u2019s pride."
+  reward:
+    experiencePoints: 200
+    gold: 100
+    specialItem:
+    - itemName: Historical Pendant
+      itemValue: 0

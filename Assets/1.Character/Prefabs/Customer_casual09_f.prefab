@@ -1129,7 +1129,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4635631973822699029}
-  - component: {fileID: 6241017552931024731}
   m_Layer: 0
   m_Name: casual09_f
   m_TagString: 
@@ -1154,27 +1153,6 @@ Transform:
   - {fileID: 5385977996084113610}
   m_Father: {fileID: 1137377465014473539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &6241017552931024731
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3596781890366178007}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 1464f508bf7948cd9672d1cb310636e3, type: 2}
-  m_Controller: {fileID: 9100000, guid: 871235f2c3b14f229b36393801992702, type: 2}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &3788859065059454624
 GameObject:
   m_ObjectHideFlags: 0

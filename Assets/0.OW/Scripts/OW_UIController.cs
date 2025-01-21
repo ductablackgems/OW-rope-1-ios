@@ -13,6 +13,7 @@ namespace _0.OW.Scripts
             TalkPanel, Gameplay
         }
         public Button dialogButton;
+        public Button takeButton;
         public OW_TalkPanel talkPanel;
         public GameObject joystick;
 

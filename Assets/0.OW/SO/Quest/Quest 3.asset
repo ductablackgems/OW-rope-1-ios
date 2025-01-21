@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c16293ecea447f59b8c661e2f41272f, type: 3}
+  m_Name: Quest 3
+  m_EditorClassIdentifier: 
+  questName: Uncover the Hidden Saboteur
+  questGiver:
+    questTitle: Uncover the Hidden Saboteur
+    questDescription: "The Sheriff believes someone is deliberately causing harm
+      to the town. He\u2019s counting on you to uncover their identity."
+    npcName: Sheriff
+    dialogues:
+    - "We\u2019ve had power outages, water leaks, and damaged bridges\u2014all too
+      suspicious to be accidents. I need you to investigate and find out who\u2019s
+      behind this."
+  objective:
+  - questTitle: Investigate the Power Plant
+    questDescription: Head to the power plant and inspect the generator that caused
+      the recent blackout. Look for any signs of tampering.
+    objectiveType: 0
+    targetNPC:
+      questTitle: 
+      questDescription: 
+      npcName: Power Plant
+      dialogues:
+      - "The wires have been deliberately cut. This wasn\u2019t an accident."
+    targetEnemy:
+      name: 
+      health: 0
+      icon: {fileID: 0}
+    killCount: 1
+    targetQuestItem:
+      itemName: 
+      itemValue: 0
+    itemCount: 0
+  - questTitle: Inspect the Water Tower
+    questDescription: "Visit the town\u2019s water tower and check for signs of sabotage
+      where the leak occurred."
+    objectiveType: 0
+    targetNPC:
+      questTitle: 
+      questDescription: 
+      npcName: Water Tower
+      dialogues:
+      - The pipe has been loosened intentionally. Someone wanted this leak to happen.
+    targetEnemy:
+      name: 
+      health: 0
+      icon: {fileID: 0}
+    killCount: 1
+    targetQuestItem:
+      itemName: 
+      itemValue: 0
+    itemCount: 0
+  - questTitle: Reveal the Saboteur
+    questDescription: Based on the evidence gathered from the power plant and water
+      tower, identify the saboteur and confront them at their hideout.
+    objectiveType: 0
+    targetNPC:
+      questTitle: 
+      questDescription: 
+      npcName: Saboteur
+      dialogues:
+      - "You\u2019ve got me. I was trying to send a message, but maybe I went too
+        far."
+    targetEnemy:
+      name: 
+      health: 0
+      icon: {fileID: 0}
+    killCount: 1
+    targetQuestItem:
+      itemName: 
+      itemValue: 0
+    itemCount: 0
+  questReceiver:
+    questTitle: 
+    questDescription: Return to the Sheriff with the captured saboteur or the evidence
+      of their actions. Bring peace back to the town.
+    npcName: Sheriff
+    dialogues:
+    - "You\u2019ve done the town a great service. With this evidence, we can ensure
+      this never happens again."
+    - This town owes you its gratitude. Thank you!
+  reward:
+    experiencePoints: 300
+    gold: 150
+    specialItem: []

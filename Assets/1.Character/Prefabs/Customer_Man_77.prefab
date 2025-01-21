@@ -2123,7 +2123,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3517596099215862450}
-  - component: {fileID: 7693272199973787463}
   m_Layer: 0
   m_Name: Man_77
   m_TagString: 
@@ -2148,27 +2147,6 @@ Transform:
   - {fileID: 4505919568707561139}
   m_Father: {fileID: 8444520736977261026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &7693272199973787463
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7358103159177040128}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 36468f6e48554723bd642c682279add7, type: 2}
-  m_Controller: {fileID: 9100000, guid: 9281f74de9c64a759d6bb30db90377f0, type: 2}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7491543244635746128
 GameObject:
   m_ObjectHideFlags: 0

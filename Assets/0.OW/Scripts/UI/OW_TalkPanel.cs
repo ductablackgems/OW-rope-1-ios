@@ -45,6 +45,11 @@ namespace _0.OW.Scripts.UI
             }
 
             currentNpcQuestData = null;
+            Vector3 direction = OWManager.instance.playerController.transform.position -
+                                this.currentNPC.transform.position;
+            direction.y = 0; // Loại bỏ trục Y
+            Quaternion targetRotation = Quaternion.LookRotation(direction);
+            this.currentNPC.transform.rotation = targetRotation;
         }
 
         public void ChoiceQuest()
@@ -125,6 +130,7 @@ namespace _0.OW.Scripts.UI
                 case OW_ProgressType.QuestReceiver:
                     QuestData.StartNewQuestion();
                     RemoveNPC();
+                    OW_QuestManager.Instance.CompleteQuest();
                     break;
             }
 

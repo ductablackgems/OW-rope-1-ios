@@ -13,7 +13,7 @@ namespace _0.OW.Scripts.Data
         }
         public static int QuestIndex
         {
-            get => PlayerPrefs.GetInt("QuestIndex", 0);
+            get => PlayerPrefs.GetInt("QuestIndex", 1);
             set => PlayerPrefs.SetInt("QuestIndex", value);
         }
 

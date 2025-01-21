@@ -9,6 +9,10 @@ namespace _0.DucLib.Scripts.Common
         {
             Debug.Log($"<color=yellow>[LOG]{mess}</color>");
         }
+        public static void LogPurple(string mess)
+        {
+            Debug.Log($"<color=#FF00E6>[LOG]{mess}</color>");
+        }
         // ReSharper disable Unity.PerformanceAnalysis
         public static void CheckPoint([System.Runtime.CompilerServices.CallerMemberName] string memberName = "")
         {

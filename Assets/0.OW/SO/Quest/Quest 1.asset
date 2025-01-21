@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c16293ecea447f59b8c661e2f41272f, type: 3}
   m_Name: Quest 1
   m_EditorClassIdentifier: 
-  questName: Investigate Suspicious Activities
+  questName: 'Emergency Repairs '
   questGiver:
     questTitle: 'Emergency Repairs '
-    questDescription: ' The Sheriff needs your help to gather specific materials
-      for a critical repair job. Talk to Jake, and collect the required items scattered
+    questDescription: 'The Sheriff needs your help to gather specific materials for
+      a critical repair job. Talk to Jake, and collect the required items scattered
       around the city. Once done, return to the Sheriff. '
     npcName: Sheriff
     dialogues:
@@ -46,8 +46,8 @@ MonoBehaviour:
       itemValue: 0
     itemCount: 0
   - questTitle: Gather Metal Scraps
-    questDescription: $"Collect {QuestData.Collection}/5 metal scraps from around
-      the industrial district."
+    questDescription: '"Collect {QuestData.QuestCollectionCount}/3 metal scraps from
+      around the industrial district."'
     objectiveType: 2
     targetNPC:
       questTitle: 
@@ -62,7 +62,7 @@ MonoBehaviour:
     targetQuestItem:
       itemName: Metal Scraps
       itemValue: 1
-    itemCount: 5
+    itemCount: 3
   questReceiver:
     questTitle: Town Sheriff
     questDescription: ' After gathering all the required materials, return to the
